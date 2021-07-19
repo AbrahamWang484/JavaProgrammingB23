@@ -1,0 +1,87 @@
+Day_7
+
+
+
+	Topics  :
+		- Array_Quiz
+		- Methods_Intro
+
+				- Passing Arguments
+				- Passing Multiple Arguments
+				- Hierarchical Method Calls
+				- Argument and Parameter Data Type Compatibility
+
+		- void Methods
+		- Return Methods
+		- Debug
+
+===  Create a package named "Practice_Date" under the folder "officeHours"  ===
+
+
+
+	Methods Intro :
+
+
+
+
+
+	Task 1 :   Write a method that can check if a number is prime or not
+
+				Note : Prime numbers are special numbers, greater than 1, that have exactly two factors, themselves and 1
+
+				A prime number is an integer, or whole number, that has only two factors — 1 and itself. Put another way, a prime number can be divided evenly only by 1 and by itself. Prime numbers also must be greater than 1.
+
+
+	Task 2 :   Write a method that can check if a number is Armstrong number
+
+				Note: if I have a 3-digit number then each of the digits is raised to the power of three and added to obtain a number. If the number obtained equals the original number then, we call that armstrong number.
+
+				Armstrong numbers are     === 153 370 371 407 === for 3 digits
+				For example, 371 is an Armstrong number, since 3^3 + 7^3 + 1^3 = 371.
+
+    Task 3 :    Write a method that can remove  all extra space from String
+
+
+    			 Input: "  Hello world      I      love      Java    "
+        	     Output: Hello world I love Java
+
+    Task 4 :     Number of Steps to Main directory  --- Interview Task
+
+    			 We have a record of every time a change of directory is performed.The different change directory functions are as follow ;
+
+    				 ../  Move to parent folder of current folder
+    				 ./   Remain in the same folder
+    				 x/   Move to the child folder named x
+
+
+    				 Write a method to Find the minimum steps required to go back to main directory from current folder.The squence of operations performed after entering the main directory provided
+
+
+    				 Input : {"x/","y/","../","z/","./"}
+
+    				 Output : 2
+
+Method : Function . it is code fragments that can re use in your framework
+        Void Methods        public static void sum (int a ){
+                             }
+        Return Methods      public static int/boolean/Object/arr[]  sum (int a ){
+                                return intValue;
+                             }
+        public : Access Modifier ( public - private - protected-default ) for now use only public
+        static : Specifier  ( final -abstaract - static - synchorized )
+                                ClassName.methodName()        // Arrays.toString()
+        void : does not return any data
+        returnType :MUST Return according to method
+        int a : it is a paramter
+            public static int sum(int a,int b){
+            return IntegerValue;
+            }
+            main(Strings[] args){
+            double a=5.4;
+            double b=5.3;
+            sout(sum(a,b));      // Compiler Error
+            }
+            // Compiler can do for us only Implicit Casting
+       sout(sum(a,b));
+                    a : argument
+                    b : argument

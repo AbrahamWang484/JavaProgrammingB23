@@ -1,0 +1,164 @@
+Unit One
+
+- 1.1 Introduction to programming concepts
+o Basic computer knowledge
+o Binary
+o ASCII table
+o Command-line
+
+
+- 1.2 Introduction to Java
+o Java data types
+o Variables
+o Escape Characters
+o Primitive datatype casting
+o Arithmetic operators
+o Logical operators
+o Rational operators
+
+
+- 1.3 Statements
+o If/else statements
+o Switch statements
+o Ternary
+o Nested If statement
+
+
+- 1.4 Scanner
+o Scanner class and methods
+o Importing classes
+
+______________________________________________________
+
+Unit Two
+
+- 2.1 String
+o String class
+o String manipulations
+o Introduction to methods
+
+
+- 2.2 Loops
+o For, While, Do while
+o Break/ Continue statements
+o Nested loop
+o Loop labels
+
+
+- 2.3 Arrays
+o Introduction to data structures
+o Array dynamics
+o For each loop
+o Multidimensional arrays
+
+______________________________________________________
+
+Unit Three
+
+- 3.1 Methods
+o Method types
+o Data transfer
+o Method overloading
+o Method signature
+o Datatype parameter promotion
+
+- 3.2 LocalDate and LocalTime
+o LocalDate class
+o DateTimeFormatter
+o LocalTime
+
+
+- 3.3 Wrapper Classes / ArrayList
+o Wrapper Classes
+o Autoboxing / Unboxing
+o ArrayList / Collections introduction
+o Bulk operations
+o Predicate / Simple lambda
+
+______________________________________________________
+
+Unit Four
+
+- 4.1 Custom Classes and Objects
+o Primitive vs. Object datatype
+o Classes – a blueprint
+o Instance variables
+o Methods
+o Initialization block
+
+
+- 4.2 Static members
+o Static fields and methods
+o Static block
+o Static imports
+
+
+- 4.3 Constructor
+o Creating objects
+o Constructor chaining
+o Overloading
+
+______________________________________________________
+
+Unit Five
+
+- 5.1 Encapsulation
+o Introduction to OOP concepts
+o Access modifiers
+
+
+- 5.2 Inheritance
+o Keyword: extends
+o Super reference
+o Is – a relation
+o Inheritance by access modifiers – Visible members
+o Constructors [ super() ]
+
+
+- 5.3 Overriding
+o Implementation
+o Annotations
+o Overload vs. override
+o Variable hiding
+
+
+- 5.4 Exceptions
+o The flow of errors/ exceptions
+o Checked and unchecked exceptions
+o Try catch block
+o Finally, block
+o Keywords: throws
+o Creating an exception
+o Keyword: throw
+
+
+- 5.5 Final keyword
+o Keyword
+o Final class, Final variables, Static final variables
+
+______________________________________________________
+
+Unit Six
+
+- 6.1 Abstraction
+o Java abstraction
+o Abstract class
+o Abstract methods
+o Interface
+o Keyword: implements
+
+
+- 6.2 Polymorphism
+o Java polymorphism
+o Upcasting/Downcasting
+o Reference types (3)
+
+
+- 6.3 Collections Framework
+o List vs. Set Interfaces
+o Iterator
+
+
+- 6.4 Maps
+o Hash table algorithm
+o Map and Hashmap

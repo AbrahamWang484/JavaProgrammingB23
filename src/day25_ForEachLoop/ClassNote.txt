@@ -1,0 +1,68 @@
+07/01/2021
+Topics: For Each Loop
+
+package name: day25_ForEachLoop
+
+Warmup task:
+	1. write a program that can  reverse each elements in an array of string
+		Ex:
+		    array = {"Java", "Python", "C#"}
+
+	    	output:
+	    		["avaJ", "nohtyP", "#C"]
+
+
+
+3 data structures:
+	Arrays
+	Collections
+	Maps
+
+
+
+For each loop: a loop that's already iterated.
+				iteration stated from index 0 till the last index (fixed)
+
+
+				pre condition: there MUST be a data structure
+
+				sytax:
+
+					for(DataType Variable   : Collection of Data){
+
+					}
+
+					DataType MUST match with Collection of Data
+
+For Each Loop vs For Loop:
+>>use For Each Loop:
+--when you need to access the value that are stored in an array, from the first element to the last element;
+--When you DO NOT CONCERN the size of the array, and you DO NOT HAVE to create an "index" variable.
+
+>>Use For Loop:
+--when you need to CHANGE the contents of an array element;
+--When you need to work through the array elements in REVERSE oder
+--When you need to ACCESS some of the array elements, but not all of them
+--When you need to simultaneously work with two or more arrays within the loop
+
+
+
+Tasks:
+	1. create an array named classmates, and store 10 of your classmates' names
+			use for each loop to print first three letters of each name
+
+	2. write a program that can print the unique elements from an array of string
+			Ex:
+				{"java", "java", "python", "c#"}
+
+			output:
+				python c#
+
+
+				MUST use for each loop
+
+
+
+single dimensional array: array that contains data
+
+multiple dimensional array: array that contains array

@@ -1,0 +1,84 @@
+07/08/2021
+Topics: Custom Methods Intro:
+			void methods with/without the parameters
+
+
+package name: day28_CustomMethods
+
+
+step1: print hello 5 times (loop)
+step2: print your name
+step3: print hello 5 times (loop)
+step4: print your school name
+steo5: print hello 5 times (loop)
+
+
+
+
+Method: function. grouping a series of code fragments to create a function
+
+	advantage: re-usable
+				easy to maintain
+
+
+
+
+	public  static   void  main(String[] arg){
+
+	}
+
+	declaring a method:
+		Access-midifier   specifiers   return-Type  methodName(Parameter){
+				code fragements
+		}
+
+		Access modifiers:
+		                    Access specifier:
+                            It is used to define the access type of the method. The above syntax sees the use of the “public” access specifier. However, Java provides four different specifiers, which are:
+		                    public, protected, private, default
+					        for now only use public
+                    Public: You can access it from any class
+                    Private: You can access it within the class where it is defined
+                    Protected: Accessible only in the same package or other subclasses in another package
+                    Default: It is the default access specifier used by the Java compiler if we don’t mention any other
+                              specifiers. It is accessible only from the package where it is declared
+
+		specifiers: static, final, abstract, synchronized
+				for now only use static
+
+				static: can be called through the class name
+
+					Arrays.toString()
+					Arrays.sort()
+
+
+		returnType: It defines the return type of the method. In the above syntax, “int” is the return type.
+		            We can mention void as the return type if the method returns no value.
+		            void, any DataType
+					void: method does not return any data
+
+		methodName: any name
+
+		parameter: It is a list of arguments (data type and variable name) that will be used in the method. In the above syntax,
+		            “int a, int b” mentioned within the parentheses is the parameter list. You can also keep it blank
+		             if you don’t want to use any parameters in the method.
+
+		    any dataType
+
+			method with parameter: we need it if method requires extra infomations to complete its functionality
+
+task:
+	1. create a method that can print odd numbers between 1~100 in a same line seperated by space
+
+	2. create a method that can print even numbers between 1~100
+
+	3. create a method that can calculate the age of the person
+
+	4. check eligibility to vote
+
+
+come back at 12:40
+Canvas -> Java -> modules -> day28 -> Arrays Short quiz
+
+
+afternoon' class: 2pm
