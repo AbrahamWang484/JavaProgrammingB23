@@ -1,6 +1,6 @@
 package day33_Methods;
 
-public class FindFrequencyForAssignedElement {
+public class Warmup3FindFrequencyForAssignedElement {
     public static void main(String[] args) {
         int[] array ={1,1,1,1,1,2,2};
         System.out.println(frequency(array, 2));

@@ -11,7 +11,7 @@ warmup tasks:
                 output: 120  ( because: 5! = 5 * 4 * 3 * 2* 1 = 120 )
 
 
-    2. write a program that can return the frequncy of the a word Java from the sentence
+    2. write a program that can return the frequency of the a word Java from the sentence
 
         Ex:
             sentence = "Java Java";

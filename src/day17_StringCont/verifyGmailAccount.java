@@ -6,9 +6,9 @@ import java.util.Scanner;
 public class verifyGmailAccount {
     public static void main(String[] args) {
         Scanner scan= new Scanner(System.in);
-        String email = scan.next();
+        String email = scan.next().toLowerCase();
         scan.close();
-        email= email.toLowerCase();
+
         if (email.endsWith("@gmail.com")){
             System.out.println("a valid gmail account");
         }else   {

@@ -18,7 +18,7 @@ public class SumOfNumbers {
             result += n ; //not include the negative number , should place after the if statement
 
         }
-        System.out.println("result = " + result);
+        System.out.println("result = " + result); //when the negative number occurred, then give the sum of privously numbers's sum.
 
         scan.close();
     }

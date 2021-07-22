@@ -26,7 +26,7 @@ public class ArrayEqual {
         int[] num4 = {2, 3, 1};
 
         boolean r1 = Arrays.equals(num1, num2); //true
-        boolean r2 = Arrays.equals(num2, num3);
+        boolean r2 = Arrays.equals(num2, num3);//false
 
         Arrays.sort(num3); // num3 will be in ascending order, {1,2,3}
         Arrays.sort(num4); // num4 will be in ascending order, {1,2,3}

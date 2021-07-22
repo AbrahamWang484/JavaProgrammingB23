@@ -26,13 +26,13 @@ public class warmupTask2 {
 /*
 2.  Write a program that can print the numbers between 1 ~ N that can be divisible by 3, 5, and 15.
             if the number can be divisible by 3, 5 and 15,
-                then it should only be displayed in DivisibelBy15' section
+                then it should only be displayed in Divisibel By15' section
 
             if the number can be divisible by 3 but cannot be divisible by 15,
-                then it should only be displayed in DivisibelBy3' section
+                then it should only be displayed in Divisibel By3' section
 
             if the number can be divisible by 5 but cannot be divisible by 15,
-                then it should only be displayed in DivisibelBy5' section
+                then it should only be displayed in Divisibel By5' section
 
             EX:
             	input: 100

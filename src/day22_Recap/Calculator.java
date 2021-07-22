@@ -44,8 +44,7 @@ public class Calculator {
 
 
             while(  !(answer.equals("yes") || answer.equals("no"))  ) { // to make sure user will only enters yes or no
-                System.out.println("Invalid Entry, Please re-enter");
-                System.out.println("Do you want to continue?");
+                System.out.println("Invalid Entry, Please re-enter.\nDo you want to continue?");
                 answer = scan.next().toLowerCase();
             }
 

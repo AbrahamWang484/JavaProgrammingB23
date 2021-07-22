@@ -9,11 +9,11 @@ public class Login {
         String correctPassword="Cybertek123";
 
         System.out.println("Enter your username");
-        String userName= scan.next();
+        String userName= scan.next().toLowerCase();
         System.out.println("Enter your password");
         String password= scan.next();
 
-        boolean canLogin = userName.equalsIgnoreCase(correctUsername) && password.equals(correctPassword);
+        boolean canLogin = userName.equals(correctUsername) && password.equals(correctPassword);
 
         if (canLogin){
             System.out.println("Logged in successfully");

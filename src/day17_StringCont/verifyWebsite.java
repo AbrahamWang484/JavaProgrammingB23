@@ -5,14 +5,16 @@ import java.util.Scanner;
 
 public class verifyWebsite {
     public static void main(String[] args) {
-        Scanner scan= new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
 
 
-        String url= scan.nextLine().toLowerCase();
+        String url = scan.nextLine().toLowerCase();
 
-        boolean isValidWebsite =url.startsWith("www.")&& (url.endsWith(".com" )||url.endsWith(".edu")||url.endsWith(".gov"));
-        {
+        boolean isValidWebsite = url.startsWith("www.") && (url.endsWith(".com") || url.endsWith(".edu") || url.endsWith(".gov"));
+        if (isValidWebsite){
             System.out.println("valid website");
+        }else {
+            System.out.println("Invalid Website");
         }
 
         scan.close();

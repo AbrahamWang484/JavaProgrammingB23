@@ -28,8 +28,10 @@ public class SubStringPractice {
         System.out.println("sentence4 = " + sentence4);
 
         String sentence5 ="Dog is friendly, Dog is loyal, I love Dogs";
+        String str1=sentence5.replace('D','C');
         sentence5 =sentence5.replace("Dog","Cat");
         System.out.println("sentence5 = " + sentence5);
+        System.out.println("str1 = " + str1);
 
 
         String str ="Batch 23";

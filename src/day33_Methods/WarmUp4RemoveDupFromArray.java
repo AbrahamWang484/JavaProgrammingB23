@@ -1,26 +1,121 @@
 package day33_Methods;
 
-public class RemoveDup {
-    public static String removeDup(String str){
+import utilities.ArraysUtility;
 
-        String result="";
+import java.util.Arrays;
+
+public class WarmUp4RemoveDupFromArray {
+
+    public static void main(String[] args) {
+        String str = "aaabbbbbcc";  //"abc"
+        String result = ""; //"abc"
+
         for (int i = 0; i < str.length(); i++) {
-            if (!result.contains(""+str.charAt(i)))
-                result+=str.charAt(i);
+            char each = str.charAt(i);
+            if(!result.contains( ""+each)){
+                result += each;
+            }
         }
 
-        return result;
+
+        System.out.println(result);
+
+        System.out.println("--------------------------------------------------------");
+        int[] array = {1,1,1,2,2,2,2,3,3,3,3,4,4,4,5,5,5,5};  //{1,2,3,4,5}
+
+        int[] newArr = {}; //1 1
+
+        for (int each : array) {
+            if( ! ArraysUtility.contains(newArr, each)){ // if the element is not contained in newArr
+                newArr = ArraysUtility.addElement(newArr, each ); // then add the element to the array
+            }
+        }
+
+
+        System.out.println(Arrays.toString(newArr));
+
+        System.out.println("-------------------------------------------");
+
+        int[] numbers = {2,3,4,2,3,4,5,6,6,7,7,7,8,9,9,9};
+
+        int[] r1 = removeDup(numbers);
+
+        System.out.println(Arrays.toString(r1));
+
+
+        System.out.println("--------------------------------------");
+
+        String[] names = {"Mohammed", "David", "John", "Ahmet", "Mohammed", "Ahmet"};
+        names = removeDup(names);
+
+        System.out.println(Arrays.toString(names));
+
+        System.out.println("--------------------------------------");
+
+        Math.max(10, 20); // ==> 20
+        Math.min(10, 20); // ==> 10
+        Math.abs(-100); // ==> 100
+        Math.pow(10, 2); // 10*10 ==> 100
+        Math.sqrt(100); // 10
+
+        // Math.sin(60); //
+
+
+
+
+
     }
+
+    public static int[] removeDup(int[] array){
+        int[] newArr = {};
+
+        for (int each : array) {
+            if( !ArraysUtility.contains(newArr, each)){
+                newArr = ArraysUtility.addElement(newArr, each );
+            }
+        }
+
+        return newArr;
+    }
+
+    public static double[] removeDup(double[] array){
+        double[] newArr = {};
+
+        for (double each : array) {
+            if( !ArraysUtility.contains(newArr, each)){
+                newArr = ArraysUtility.addElement(newArr, each );
+            }
+        }
+
+        return newArr;
+    }
+
     public static String[] removeDup(String[] array){
-//step 1: creat new array which without duplicate.
-        String result="";
-        for (int i = 0; i < str.length(); i++) {
-            if (!result.contains(""+str.charAt(i)))
-                result+=str.charAt(i);
+        String[] newArr = {};
+
+        for (String each : array) {
+            if( !ArraysUtility.contains(newArr, each)){
+                newArr = ArraysUtility.addElement(newArr, each );
+            }
         }
 
-        return result;
+        return newArr;
     }
+
+    public static char[] removeDup(char[] array){
+        char[] newArr = {};
+
+        for (char each : array) {
+            if( !ArraysUtility.contains(newArr, each)){
+                newArr = ArraysUtility.addElement(newArr, each );
+            }
+        }
+
+        return newArr;
+    }
+
+
+
 }
 /*
 Task4:

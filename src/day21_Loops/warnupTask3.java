@@ -4,7 +4,6 @@ public class warnupTask3 {
     public static void main(String[] args) {
         String str="A1B2C3";
         int sum=0;
-        int chn=0;
         char ch;
         for (int i = 0; i < str.length(); i++) {
             ch=str.charAt(i);
@@ -19,7 +18,7 @@ public class warnupTask3 {
 }
 /*
 
-   3. Write a program that can return the sum of digits froma  string
+   3. Write a program that can return the sum of digits from a string
      		Ex:
      			input: A1B2C3
 

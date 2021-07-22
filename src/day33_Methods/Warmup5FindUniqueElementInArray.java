@@ -4,7 +4,7 @@ import utilities.ArraysUtility;
 
 import java.util.Arrays;
 
-public class FindUniqueElementInArray {
+public class Warmup5FindUniqueElementInArray {
     public static void main(String[] args) {
         int[] array = {1, 1, 2, 3, 3, 4};
         int[] result = {};

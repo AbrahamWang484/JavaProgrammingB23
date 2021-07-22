@@ -9,9 +9,9 @@ public class warmUpTask2B {
         System.out.println("Welcome to Hotel,Would you like to reservation?");
         String answer = scan.nextLine().toLowerCase();
 
-        while (!(answer.equals("yes")||(answer.equals("no")))){
+        while (!(answer.equals("yes") || (answer.equals("no")))) {
             System.out.println("Invalid input, Please re-enter. Would you like to reservation?");
-            answer=scan.nextLine().toLowerCase();
+            answer = scan.nextLine().toLowerCase();
         }
 
         while (answer.equals("yes")) {
@@ -27,15 +27,15 @@ public class warmUpTask2B {
                 System.out.println("Invalid input, please re entry");
             }
             System.out.println("Would you like to make another reservation?");
-            answer=scan.nextLine().toLowerCase();
+            answer = scan.nextLine().toLowerCase();
 
-            while (!(answer.equals("yes")||(answer.equals("no")))){
+            while (!(answer.equals("yes") || (answer.equals("no")))) {
                 System.out.println("Invalid input, Please re-enter. Would you like to make another reservation?");
-                answer=scan.nextLine().toLowerCase();
+                answer = scan.nextLine().toLowerCase();
             }
 
         }
-        System.out.println("Total Price: $"+totalPrice);
+        System.out.println("Total Price: $" + totalPrice);
     }
 }
 

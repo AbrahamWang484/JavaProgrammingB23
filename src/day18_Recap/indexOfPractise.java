@@ -5,7 +5,7 @@ public class indexOfPractise {
          String str ="abcd";
          int indexOfK =str.indexOf("k");
 
-        System.out.println("indexOfK = " + indexOfK);
+        System.out.println("indexOfK = " + indexOfK); //-1
         if (indexOfK>=0){
             System.out.println("the string has character k");
         }else {// index of k will be negative means doesnot contain the k

@@ -2,7 +2,7 @@ package day33_Methods;
 
 import java.util.Arrays;
 
-public class reverseMethod {
+public class Warmup1reverseMethod {
     public static void main(String[] args) {
         int[] array = {1,2,3,4,5,6,7};
         System.out.println(Arrays.toString(reversedArray(array)));

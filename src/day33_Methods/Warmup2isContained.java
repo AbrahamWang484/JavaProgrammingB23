@@ -1,6 +1,6 @@
 package day33_Methods;
 
-public class isContained {
+public class Warmup2isContained {
     public static void main(String[] args) {
         int[] array= {1,2,3,4};
         int num=4;

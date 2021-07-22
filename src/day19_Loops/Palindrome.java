@@ -7,14 +7,14 @@ public class Palindrome {
 
         //racecar
 
-        String word= new Scanner(System.in).next();
+        String word= new Scanner(System.in).next().toLowerCase();
         String reverseWord="";
 
         for (int i= word.length()-1;i>=0;i--){
             reverseWord += word.charAt(i);
         }
 //for case sensitive
-        boolean isPalindrome = word.equalsIgnoreCase(reverseWord);
+        boolean isPalindrome = word.equals(reverseWord);
 
         System.out.println("isPalindrome = " + isPalindrome);
 

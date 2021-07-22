@@ -14,4 +14,5 @@ public class RemoveDuplicate {
     }
 }
 //get the unique letter, remove the duplicate characters
-//to remove the duplicate characters: 1) By using for loop
+//to remove the duplicate characters: 1) By using for loop,
+//2) If the result did not contains the character then concatenate to result

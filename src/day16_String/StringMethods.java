@@ -30,7 +30,7 @@ public class StringMethods {
         String str2 = new String("Cat");// java heap location 1
         String str3 = new String("Cat");// java heap location 2
 
-        System.out.println(str1 == str2);//location, objects are totally different false
+        System.out.println(str1 == str2);//>>false,location, objects are totally different false
         System.out.println(str1.equals(str2));//compare the content true
         System.out.println(str2.equals(str3));//true
         System.out.println(str2==str3); //false

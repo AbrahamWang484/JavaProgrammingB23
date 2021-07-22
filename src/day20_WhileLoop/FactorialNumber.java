@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 public class FactorialNumber {
     public static void main(String[] args) {
-        int input= new Scanner(System.in).nextInt();
-        int result =1; // multipliy use 1 not 0, if ==1, the result will be 0
+        int input = new Scanner(System.in).nextInt();
+        int result = 1; // multipliy use 1 not 0, if ==1, the result will be 0
 
-        for (int i =input; i >0; i--){
-            result  *=i;
+        for (int i = input; i > 0; i--) {
+            result *= i;
         }
         System.out.println(result);
     }

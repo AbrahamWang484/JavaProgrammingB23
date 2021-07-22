@@ -9,8 +9,8 @@ public class ThreeWords {
         String word2= scan.next();
         String word3= scan.next();
 
-        boolean allSame = word1.length() == word2.length() && word1.length()== word3.length();
-        boolean notSame = word1.length() != word2.length() && word1.length()!=word3.length()&& word2.length()!=word3.length();
+        boolean allSame = (word1.length() == word2.length()) && (word1.length()== word3.length());
+        boolean notSame = (word1.length() != word2.length()) && (word1.length()!=word3.length()&& word2.length()!=word3.length());
 
         if (allSame){
             System.out.println("All words are same length" );
