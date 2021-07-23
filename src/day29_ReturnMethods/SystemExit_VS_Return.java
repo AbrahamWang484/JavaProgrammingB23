@@ -12,6 +12,9 @@ public class SystemExit_VS_Return {
 
     }
 
+    public static void main(int[] args) {
+        System.out.println("hello");
+    }
 
     public static void passOrFailed(int score){
 
