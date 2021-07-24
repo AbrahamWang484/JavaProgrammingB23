@@ -12,13 +12,12 @@ public class Party {
 
         for (int i = 1; i >0; i++) {
             System.out.println("Do you want to enter new guest name:");
-            String yesOrNo=scan.next();
-            if (yesOrNo.equalsIgnoreCase("yes")){
+            String yesOrNo=scan.next().toLowerCase();
+            if (yesOrNo.equals("yes")){
                 System.out.println("Please enter guest name:");
                 String name2=scan.next();
                 list=list+name2+", ";
-            }else if (yesOrNo.equalsIgnoreCase("no")){
-
+            }else if (yesOrNo.equals("no")){
                 break;
             }
         }

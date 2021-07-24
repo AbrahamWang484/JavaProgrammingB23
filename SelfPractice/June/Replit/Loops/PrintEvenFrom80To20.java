@@ -2,12 +2,12 @@ package June.Replit.Loops;
 
 public class PrintEvenFrom80To20 {
     public static void main(String[] args) {
-        for (int i = 80; i >= 22; i--) {
+        for (int i = 80; i >= 20; i--) {
             if (i % 2 == 0) {
                 System.out.print(i + " ");
             }
 
-        }System.out.println(20);
+        }//System.out.println(20);
     }
 }
 /*

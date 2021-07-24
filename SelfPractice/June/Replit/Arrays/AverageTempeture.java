@@ -5,15 +5,15 @@ import java.util.Scanner;
 public class AverageTempeture {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        double[] temps = { scan.nextDouble(), scan.nextDouble(), scan.nextDouble(), scan.nextDouble(),
-                scan.nextDouble(), scan.nextDouble(), scan.nextDouble() , scan.nextDouble()  };
+        double[] temps = {scan.nextDouble(), scan.nextDouble(), scan.nextDouble(), scan.nextDouble(),
+                scan.nextDouble(), scan.nextDouble(), scan.nextDouble(), scan.nextDouble()};
 
         // Do not touch above. Use array temps
-        double sum=0, average;
+        double sum = 0, average;
         for (int i = 0; i < temps.length; i++) {
-            sum+=temps[i];
+            sum += temps[i];
         }
-        average=sum/ temps.length;
+        average = sum / temps.length;
         System.out.println(average);
 
 

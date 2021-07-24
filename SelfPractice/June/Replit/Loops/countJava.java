@@ -7,7 +7,7 @@ public class countJava {
         Scanner scan = new Scanner(System.in);
         String word = scan.next();
         int countJava = 0;
-//for count type quesstion: 1. create loop; 2, use substring fucntion to filter all the length eaqual words; 3,use if statement, compare the filter word with target word, if equal, count +1
+//for count type quesstion: 1. create loop; 2, use substring function to filter all the length equal words; 3,use if statement, compare the filter word with target word, if equal, count +1
         //4, output the number;
         for (int i = 0; i <= word.length() - 4; i++) {
             String java = word.substring(i, i + 4);

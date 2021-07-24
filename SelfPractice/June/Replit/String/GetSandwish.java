@@ -10,7 +10,7 @@ public class GetSandwish {
         if (str.indexOf("bread") != str.lastIndexOf("bread")){
             int indexOfD= str.indexOf("d");
             int indexOfB= str.lastIndexOf("b");
-            System.out.println(str.substring(indexOfD,indexOfB+1));
+            System.out.println(str.substring(indexOfD+1,indexOfB));
         }else {
             System.out.println("nothing");
         }
@@ -18,7 +18,9 @@ public class GetSandwish {
     }
 }
 /*
-A sandwich is two pieces of bread with something in between. Print the string that is between the first and last appearance of "bread" in the given string, or return string "nothing" if there are not two pieces of bread.
+A sandwich is two pieces of bread with something in between.
+Print the string that is between the first and last appearance of "bread" in the given string,
+or return string "nothing" if there are not two pieces of bread.
 
 
 Example:

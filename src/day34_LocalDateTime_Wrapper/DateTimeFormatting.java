@@ -44,6 +44,7 @@ public class DateTimeFormatting {
         System.out.println("result = " + result);//result = Monday
         System.out.println(nameOfTheDay(2025, 5, 28)); //Wednesday
 
+
     }
 
     public static String nameOfTheDay(int year, int month, int day) {

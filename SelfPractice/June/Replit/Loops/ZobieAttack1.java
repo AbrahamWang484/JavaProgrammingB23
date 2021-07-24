@@ -10,7 +10,7 @@ public class ZobieAttack1 {
 
         //TODO. Write you code below this line.
 
-        System.out.println("Day 0" + Arrays.toString(inhabitants));
+        System.out.println("Day 0 " + Arrays.toString(inhabitants));
         for (int i = 1; i < inhabitants.length; i++) {
             int sum = 0;
             for (int j = 0; j < inhabitants.length; j++) {
@@ -18,11 +18,10 @@ public class ZobieAttack1 {
                     inhabitants[j] = inhabitants[j] / 2;
                 }
             }
+            System.out.println("Day " + i + " " + Arrays.toString(inhabitants));
             for (int population : inhabitants) {
                 sum += population;
-            }
-            System.out.println("Day " + i +" "+ Arrays.toString(inhabitants));
-            if (sum == 0) {
+            }if (sum == 0) {
                 System.out.println("---- EXTINCT ----");
                 break;
             }

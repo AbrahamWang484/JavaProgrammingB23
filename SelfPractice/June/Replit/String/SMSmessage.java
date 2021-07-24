@@ -6,7 +6,7 @@ public class SMSmessage {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String message = scan.nextLine();
-
+//String str = "Sender:<Mike Smith>. From Number:[202-123-3456]. Message:{I love programing and problem solving}";
         //write your codes here:
         String sender;
         String phoneNumber;
