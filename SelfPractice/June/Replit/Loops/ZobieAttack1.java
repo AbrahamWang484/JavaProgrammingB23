@@ -14,9 +14,7 @@ public class ZobieAttack1 {
         for (int i = 1; i < inhabitants.length; i++) {
             int sum = 0;
             for (int j = 0; j < inhabitants.length; j++) {
-                if (inhabitants[j] >= 0) {
                     inhabitants[j] = inhabitants[j] / 2;
-                }
             }
             System.out.println("Day " + i + " " + Arrays.toString(inhabitants));
             for (int population : inhabitants) {

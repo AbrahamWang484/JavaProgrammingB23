@@ -11,7 +11,8 @@ public class Printing01 {
     }
 }
 /*
-The code provided in your main method will take in five Strings and save them into an array called **arr**.  Print out the first three letter of each element on seperate lines.  You can assume that every element of arr is at least 3 letters long.
+The code provided in your main method will take in five Strings and save them into an array called **arr**.
+Print out the first three letter of each element on seperate lines.  You can assume that every element of arr is at least 3 letters long.
 
 ```
 Example:

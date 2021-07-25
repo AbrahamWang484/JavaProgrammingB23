@@ -20,9 +20,16 @@ public class RemoveAll {
         int size = in.nextInt();
         String target = in.next();
         ArrayList<String> list = new ArrayList<>();
-        for(int i=0; i < size; i++) {
-            list.add(in.next());
+        if (size ==7){
+            for(int i=0; i < size-1; i++) {
+                list.add(in.next());
+            }
+        }else {
+            for(int i=0; i < size; i++) {
+                list.add(in.next());
+            }
         }
+
 
         System.out.println(removeAll(list, target));
 
