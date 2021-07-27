@@ -1,4 +1,4 @@
-package day35;
+package day35_ArrayList;
 
 public class tset {
     public static void main(String[] args) {

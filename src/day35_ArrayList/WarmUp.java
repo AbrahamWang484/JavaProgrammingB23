@@ -1,4 +1,4 @@
-package day35;
+package day35_ArrayList;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -8,7 +8,7 @@ public class WarmUp {
     public static void main(String[] args) {
         //DateTimeFormatter DF= DateTimeFormatter.ofPattern("MMMM/dd, EEEE");
         LocalDate[] arraysDate=new LocalDate[10];
-        String[] array=new String[10];
+
         LocalDate now= LocalDate.now();
         for (int i = 0; i < arraysDate.length; i++) {
             arraysDate[i]=now.plusDays(i+1);
