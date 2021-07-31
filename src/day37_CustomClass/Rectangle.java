@@ -10,13 +10,13 @@ public class Rectangle {
         length=rectangleLength;
         width= rectangleWidth;
     }
-    public double calculateArea(double rectangleLength, double rectangleWidth){
-        double area = rectangleLength * rectangleWidth ;
+    public double calculateArea(){
+        double area = length * width ;
         return area;
     }
 
-    public double calculatePerimeter(double rectangleLength, double rectangleWidth){
-        double perimeter = (rectangleLength + rectangleWidth) *2;
+    public double calculatePerimeter(){
+        double perimeter = (length + width ) *2;
         return perimeter;
     }
 
