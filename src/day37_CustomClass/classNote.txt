@@ -76,3 +76,21 @@ Tasks:
 		Actions: eat(), sleep(), drink(), coding()...
 				setInfo(): to set the attributes
 				getInfo(): print the attributes
+
+
+Task:
+	create a custom class named Rectangle
+	    Attributes:
+	        length, width
+
+	    Actions:
+	        setInfo: sets the length and width of the rectangle
+	        calculateArea(): calculates the area of the rectangle, returns it as double
+	        calculatePerimeter() calculates the perimeter of the rectangle, returns it as double
+	        getInfo(): prints the width, length, area and perimeter of the rectangle
+
+
+
+2. create 10 objects of the Dog and set thier Info
+   create an ArrayList named dogs and add those 10 dog objects
+   write a program that can remove all the dogs that are not husky
