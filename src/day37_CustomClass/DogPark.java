@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 public class DogPark {
     public static void main(String[] args) {
-        Dog dog1= new Dog();
+        Dog dog1 = new Dog();
         dog1.name = "Kangal";
         dog1.gender = "Female";
         dog1.breed = "Kangal";
@@ -21,10 +21,10 @@ public class DogPark {
         System.out.println(dog1.color);
 
         Dog dog2 = new Dog();
-        dog2.setInfo("Bobby","Shepard", "Female", "Brown", "large", 3);
+        dog2.setInfo("Bobby", "Shepard", "Female", "Brown", "large", 3);
 
         Dog dog3 = new Dog();
-        dog3.setInfo("ninja","Husky","Male","Blue","Medium", 6);
+        dog3.setInfo("ninja", "Husky", "Male", "Blue", "Medium", 6);
 
         dog1.bark();
         dog2.bark();
@@ -42,9 +42,10 @@ public class DogPark {
         dog3.getInfo();
 
         System.out.println("----------------------------");
-        Dog[] dogs ={dog1,dog2,dog3};
+        Dog[] dogs = {dog1, dog2, dog3};
         ArrayList<Dog> dogsList = new ArrayList<>();
-        dogsList.addAll(Arrays.asList(dog1,dog2,dog3));
+        dogsList.addAll(Arrays.asList(dog1, dog2, dog3));
+
 
 
 

@@ -19,5 +19,8 @@ public class CarHub {
         car2.getInfo();
         System.out.println("--------------");
         car3.getInfo();
+
+        car1.make = "BMW";
+
     }
 }
