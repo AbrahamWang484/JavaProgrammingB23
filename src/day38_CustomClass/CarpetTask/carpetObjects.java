@@ -5,28 +5,44 @@ import java.util.Arrays;
 
 public class carpetObjects {
     public static void main(String[] args) {
-        Carpet carpet1 = new Carpet();
-        carpet1.customOrder(2,3,10,true);
-        Carpet carpet2 = new Carpet();
-        carpet2.customOrder(3,5,12,false);
-        Carpet carpet3 = new Carpet();
-        carpet3.customOrder(1,3,8,true);
-        Carpet carpet4 = new Carpet();
-        carpet4.customOrder(4,4,16,false);
-        Carpet carpet5 = new Carpet();
-        carpet5.customOrder(1,1,10,true);
+        Carpet[] carpets= {new Carpet(),new Carpet(),new Carpet(),new Carpet(),new Carpet()};
 
-        Carpet[] arr= {carpet1,carpet2,carpet3,carpet4,carpet5};
-        ArrayList<Carpet> carpets = new ArrayList<>(Arrays.asList(arr));
+        carpets[0].customOrder(2.6,3,10,true);
+        carpets[1].customOrder(3.4,5,12,false);
+        carpets[2].customOrder(1.3,3,8,true);
+        carpets[3].customOrder(4.1,4,16,false);
+        carpets[4].customOrder(1.2,1,10,true);
 
-        ArrayList<Carpet> persianCarpets = new ArrayList<>(carpets);
+/*
+        ArrayList<Carpet> carpetsList = new ArrayList<>(Arrays.asList(carpets));
+
+        ArrayList<Carpet> persianCarpets = new ArrayList<>(carpetsList);
         persianCarpets.removeIf(carpet -> !carpet.isPersian);
         System.out.println(persianCarpets);
         for (Carpet persianCarpet : persianCarpets) {
             System.out.println(persianCarpet);
         }
-        ArrayList<Carpet> regularCarpets = new ArrayList<>(carpets);
+        ArrayList<Carpet> regularCarpets = new ArrayList<>(carpetsList);
         regularCarpets.removeIf(carpet -> carpet.isPersian);
         System.out.println(regularCarpets);
+
+ */
+        ArrayList<Carpet> persianCarpets = new ArrayList<>();
+        ArrayList<Carpet> regularCarpets = new ArrayList<>();
+
+        for(Carpet each : carpets ){
+            if(each.isPersian){
+                persianCarpets.add(each);
+            }else{
+                regularCarpets.add(each);
+            }
+        }
+        System.out.println("Total number of persian carpets: "+ persianCarpets.size());
+        System.out.println("Total number of regular carpets: "+ regularCarpets.size());
+
+        for (Carpet persianCarpet : persianCarpets) {
+            System.out.println(persianCarpet);
+        }
+
     }
 }

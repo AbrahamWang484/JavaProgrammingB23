@@ -13,11 +13,11 @@ public class Student {
 
     public String toString() {
         return "Student{" +
-                "name='" + name  +
-                ", gender='" + gender +
-                ", dateOfBirth='" + dateOfBirth +
-                ", studentID='" + studentID +
-                ", grade='" + grade +
+                "name= " + name  +
+                ", gender= " + gender +
+                ", dateOfBirth= " + dateOfBirth +
+                ", studentID= " + studentID +
+                ", grade= " + grade +
                 '}';
     }
 }

@@ -28,10 +28,10 @@ public class Salary {
 
     public String toString() {
         return "Salary{" +
-                "salary=" + salary() +
-                ", stateTax=" + stateTax() +
-                ", federalTax=" + federalTax() +
-                ", salaryAfterTax=" + salaryAfterTax() +
+                "salary= $" + salary() +
+                ", stateTax= $" + stateTax() +
+                ", federalTax= $" + federalTax() +
+                ", salaryAfterTax= $" + salaryAfterTax() +
                 '}';
     }
 }
