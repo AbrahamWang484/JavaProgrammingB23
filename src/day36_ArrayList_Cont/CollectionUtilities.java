@@ -12,19 +12,19 @@ public class CollectionUtilities {
         // Arrays.sort(list);
 
         Collections.sort(list);
-        System.out.println(list);
+        System.out.println(list);//[-1, 0, 5, 10, 10, 15, 20, 20, 20, 20, 30, 40]
 
         Collections.reverse(list);
-        System.out.println(list);
+        System.out.println(list);//[40, 30, 20, 20, 20, 20, 15, 10, 10, 5, 0, -1]
 
-        Collections.swap(list, 2, 0);
-        System.out.println(list);
+        Collections.swap(list, 11, 0);
+        System.out.println(list);//[-1, 30, 20, 20, 20, 20, 15, 10, 10, 5, 0, 40]
 
         Collections.replaceAll(list, 10, 20);
-        System.out.println(list);
+        System.out.println(list); //[-1, 30, 20, 20, 20, 20, 15, 20, 20, 5, 0, 40]
 
         int f = Collections.frequency(list, 20);
-        System.out.println(f);
+        System.out.println(f); //6
 
         System.out.println("-------------------------------------------");
 
@@ -42,7 +42,7 @@ public class CollectionUtilities {
 
         ArrayList<Character> uniques = new ArrayList<>( chars );
         uniques.removeIf( p ->  Collections.frequency(uniques, p ) != 1);
-        System.out.println(uniques);
+        System.out.println(uniques); //[B, D]
 
 
         System.out.println("----------------------------------------------");
@@ -64,14 +64,14 @@ public class CollectionUtilities {
         ArrayList<String> result = new ArrayList<>(  Arrays.asList(str.split("") ) );
         result.removeIf(p -> Collections.frequency(result, p) != 1 );
 
-        System.out.println(result);
+        System.out.println(result);//[C, D]
 
 
         int max = Collections.max(list);
         int min = Collections.min(list);
 
-        System.out.println("max = " + max);
-        System.out.println("min = " + min);
+        System.out.println("max = " + max); //max = 40
+        System.out.println("min = " + min); //min = -1
 
 
         ArrayList<Integer> numbers = new ArrayList<>();
@@ -85,9 +85,9 @@ public class CollectionUtilities {
         int thirdMax = Collections.max(numbers);
 
 
-        System.out.println("firstMax = " + firstMax);
-        System.out.println("secondMax = " + secondMax);
-        System.out.println("thirdMax = " + thirdMax);
+        System.out.println("firstMax = " + firstMax);//firstMax = 10
+        System.out.println("secondMax = " + secondMax); //secondMax = 9
+        System.out.println("thirdMax = " + thirdMax); //thirdMax = 8
 
 
 

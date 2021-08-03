@@ -67,7 +67,6 @@ public class BulkOperations {
         l.add(1, "Alex"); //{Enes, Alex, Akbor}
         l.add(0, "Alp");  //{"Alp", Enes, Alex, Akbor}
 
-        System.out.println(l); //[Alp, Enes, Alex, Akbor]
 
 
     }

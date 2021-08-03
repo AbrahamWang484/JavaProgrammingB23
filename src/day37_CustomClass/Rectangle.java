@@ -1,29 +1,34 @@
 package day37_CustomClass;
 
 public class Rectangle {
-    public double length;
-    public double width;
-    public double area;
-    public double perimeter;
+    public double length, width;
 
-    public void setInfo(double rectangleLength, double rectangleWidth){
-        length=rectangleLength;
-        width= rectangleWidth;
-    }
-    public double calculateArea(){
-        double area = length * width ;
-        return area;
+    public void setInfo(double length, double width) {
+        this.length = length;
+        this.width = width;
     }
 
-    public double calculatePerimeter(){
-        double perimeter = (length + width ) *2;
-        return perimeter;
+    public double calculateArea() {
+        return length * width;
     }
 
-    public void getInfo(){
+    public double calculatePerimeter() {
+        return (length + width) * 2;
+    }
+
+    public void getInfo() {
         System.out.println("length = " + length);
         System.out.println("width = " + width);
-        System.out.println("area = " + area);
-        System.out.println("perimeter = " + perimeter);
+        System.out.println("area = " + calculateArea());
+        System.out.println("perimeter = " + calculatePerimeter());
+    }
+
+    public String toString() {
+        return "Rectangle{" +
+                "length=" + length +
+                ", width=" + width +
+                ", area=" + calculateArea() +
+                ", perimeter=" + calculatePerimeter()+
+        '}';
     }
 }

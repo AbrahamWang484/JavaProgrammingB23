@@ -37,7 +37,19 @@ public class Dog {
         System.out.println("color = " + color);
         System.out.println("gender = " + gender);
 
-
+    }
+    public void display(){
+        System.out.println(name+", "+breed+", "+age+", "+size+", "+color+", "+gender);
     }
 
+    public String toString() {
+        return "Dog{" +
+                "name='" + name + '\'' +
+                ", breed='" + breed + '\'' +
+                ", age=" + age +
+                ", size='" + size + '\'' +
+                ", color='" + color + '\'' +
+                ", gender='" + gender + '\'' +
+                '}';
+    }
 }

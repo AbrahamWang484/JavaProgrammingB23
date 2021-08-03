@@ -1,5 +1,7 @@
 package day37_CustomClass;
 
+import java.util.Arrays;
+
 public class RectangleHub {
     public static void main(String[] args) {
         Rectangle rectangle1 = new Rectangle();
@@ -17,5 +19,15 @@ public class RectangleHub {
         rectangle1.getInfo();
         System.out.println("----------");
         rectangle2.getInfo();
+
+        System.out.println(rectangle1);
+        System.out.println(rectangle2);
+
+        Rectangle[] arr ={rectangle1,rectangle2};
+        System.out.println(arr[0]);
+        System.out.println(arr[1]);
+        System.out.println(Arrays.toString(arr));
+
     }
 }
+

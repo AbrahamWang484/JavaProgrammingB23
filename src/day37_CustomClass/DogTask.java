@@ -27,6 +27,9 @@ package day37_CustomClass;
         System.out.println("color = " + color);
         System.out.println("gender = " + gender);
     }
+    public void display(){
+        System.out.println(name+", "+breed+", "+age+", "+size+", "+color+", "+gender+", Is Hunsky?"+isHusky);
+    }
 }
 
 class Custom {
@@ -53,6 +56,12 @@ class Custom {
         DogTask dog10 = new DogTask();
         dog10.setInfo("XiaoHei","Boston Terrier","male","brown","small",3,false);
 
+        DogTask[] dogs = {dog1,dog2,dog3,dog4,dog5,dog6,dog7,dog8,dog9,dog10};
+
+        for (DogTask dog : dogs) {
+            dog.getInfo();
+            System.out.println("------------");
+        }
 
     }
 }
