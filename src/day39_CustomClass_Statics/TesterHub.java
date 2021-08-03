@@ -32,6 +32,7 @@ public int salary;
                 '}';
     }
 }
+
 public class TesterHub {
     public static void main(String[] args) {
 
