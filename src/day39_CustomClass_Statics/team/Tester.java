@@ -1,10 +1,11 @@
-package day39_CustomClass_Statics;
+package day39_CustomClass_Statics.team;
 
 class Tester{
-public String name, employeeID, JobTitle;
-public int salary;
+    public String name, JobTitle;
+    public int salary;
+    public long employeeID;
 
-    public void setInfo(String name, String employeeID, String JobTitle, int salary) {
+    public void setInfo(String name, long employeeID, String JobTitle, int salary) {
         this.name = name;
         this.employeeID = employeeID;
         this.JobTitle = JobTitle;
@@ -12,15 +13,15 @@ public int salary;
     }
 
     public void smokeTesting(){
-
+        System.out.println(name +" is responsible for smoking test.");
     }
 
     public void creatingTicket(){
-
+        System.out.println(name + " is responsible for creating the ticket.");
     }
 
     public void dailyStandUp(){
-
+        System.out.println(name + " is responsible daily stand up");
     }
 
     public String toString() {
@@ -30,11 +31,5 @@ public int salary;
                 ", JobTitle='" + JobTitle +
                 ", salary=" + salary +
                 '}';
-    }
-}
-
-public class TesterHub {
-    public static void main(String[] args) {
-
     }
 }

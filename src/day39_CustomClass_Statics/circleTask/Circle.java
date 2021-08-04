@@ -1,31 +1,37 @@
-package day38_CustomClass.CircleTask;
+package day39_CustomClass_Statics.circleTask;
+
+import java.text.DecimalFormat;
 
 public class Circle {
+
     public double radius, diameter;
+    //   public static double PI = 3.14; // only one copy of static variables will be shared by all circle objects
 
-
-    public void setInfo(double radius) {
+    public void setInfo(double radius){
         this.radius = radius;
         diameter = 2 * radius;
     }
 
-    public double area() {
+    public double area(){
         return radius * radius * Math.PI;
     }
 
-    public double perimeter() {
-        return 2 * Math.PI * radius;
+    public double perimeter(){
+        return diameter * Math.PI;
     }
 
+
     public String toString() {
+        DecimalFormat df = new DecimalFormat();
         return "Circle{" +
-                "radius=" + radius +
-                ", diameter=" + diameter +
-                ", Area=" + area() +
-                ", Perimeter=" + perimeter() +
+                "radius= " +radius +
+                ", diameter= " + diameter +
+                ", area= " + df.format(area())  +
+                ", perimeter= " +df.format(perimeter())  +
                 '}';
     }
 }
+
 /*
 CircleTask
 		1. create a class named Student that has the followings features

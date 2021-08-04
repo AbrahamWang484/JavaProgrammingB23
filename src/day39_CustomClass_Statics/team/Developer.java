@@ -1,10 +1,11 @@
-package day39_CustomClass_Statics;
+package day39_CustomClass_Statics.team;
 
 class Developer{
-    public String name, employeeID, JobTitle;
+    public String name, JobTitle;
     public int salary;
+    public long employeeID;
 
-    public void setInfo(String name, String employeeID, String JobTitle, int salary) {
+    public void setInfo(String name, long employeeID, String JobTitle, int salary) {
         this.name = name;
         this.employeeID = employeeID;
         this.JobTitle = JobTitle;
@@ -12,15 +13,15 @@ class Developer{
     }
 
     public void coding(){
-
+        System.out.println(name + " is responsible for coding.");
     }
 
     public void unitTesting(){
-
+        System.out.println(name +" is responsible for unit test");
     }
 
     public void fixingBug(){
-
+        System.out.println(name +" is responsible for fixing the bugs");
     }
 
     public String toString() {
@@ -32,8 +33,7 @@ class Developer{
                 '}';
     }
 }
-public class DeveloperHub {
-}
+
 /*
 create a class called Developer
           Attributes:
