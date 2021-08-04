@@ -1,0 +1,66 @@
+1.  Create a class called Server
+
+        Attributes:
+                name (String), employeeID (int), hourlyRate (double), fullTime (boolean)
+
+        Actions: (all void methods)
+
+            setInfo(): sets all of the instance variables with some values taken from the parameters.
+            takeOrder(): server's name + "is taking an order"
+            cleanTable(): server's name + "is cleaning the table"
+            toString(): Returns (String) all the information of a Server
+                -> Extra: For fullTime status, instead of printing a boolean value, print "full-time" or "part-time"
+
+2. Create a class called Chef
+
+            Attributes:
+                name (String), employeeID (int), hourlyRate (double), fullTime (boolean)
+
+            Actions: (all void methods)
+
+                setInfo(): sets all of the instance variables with some values taken from the parameters.
+                makeOrder(): chef's name + "is making an order"
+                washDishes(): chef's name + "is washing the dishes"
+                toString(): Returns (String) all the information of a Chef
+                    -> Extra: For fullTime status, instead of printing a boolean value, print "full-time" or "part-time"
+
+3. Create a class called Restaurant
+
+            Attributes:
+                Owner (String), Location (String), numberOfStars (int)
+                Servers (ArrayList of Server objects)
+                Chefs (ArrayList of Chef objects)
+
+            Actions: (all void methods)
+
+                setInfo(): sets the owner, location, and number of stars with the given parameters
+                hireServer(Server server): accepts a server object and adds it to the Servers ArrayList
+                hireServer(Server [] servers): accepts an array of Server objects and adds all of them to the Servers ArrayList
+                hireServer(String name, int employeeID, double hourlyRate, boolean fullTime): this overloaded version accept the given parameters/information of a Server and will add the given Server to the ArrayList of Servers
+
+                hireChef(Chef chef): accepts a chef object and adds it to the Chefs ArrayList
+                hireChef(Chef [] chefs): accepts an array of Chef objects and adds all of them to the Chef ArrayList
+                hireChef(String name, int employeeID, double hourlyRate, boolean fullTime): this overloaded version accept the given parameters/information of a Chef and will add the given Chef to the ArrayList of Chefs
+
+                toString(): Return (String) of all the information of a Restaurant object. No need to print the whole list of Servers or Chefs. Print the number of Servers and Chefs along side the other information
+
+                terminateEmployee(String title, int employeeID): Create a method that will accept a String title which can only be "server" or "chef". If any other String is given it is invalid and the no action should be done (an error message can be given "invalid employee type"). Once you know which type of employee you are terminating use their given employeeID in the correct ArrayList type and remove them (you can give a message if you want: "$name was terminated").
+
+5. Create a class LocalRestaurant that has a main method with the following:
+        	- Make a Restaurant object
+        	- Create an array of servers with their information set. Add those initial servers to the ArrayList of Servers in the Restaurant object
+            - Create an array of chefs with their information set. Add those initial chefs to the ArrayList of Chefs in the Restaurant object
+
+            - Print your whole restaurants information
+
+        Extra Tasks:
+        	- Find out the cost of all the employees (servers + chefs) by checking all of their hourly rates
+
+        	- Make two new ArrayLists that will separate all the employees (servers + chefs) by full time and part time. Their position of server or chef does not matter for these ArrayList, only their employment status
+
+        	- Make sure the Restaurant is staffed enough for the level of stars it is using the following requirements:
+                5 stars: need at least 6 chefs and 10 servers
+                4 stars: need at least 3 chefs and 7 servers
+                3 stars: need at least 1 chefs and 4 servers
+
+            	- if the restaurant does not have the correct number of chefs or servers based on their number of stars you should print a message: "Need to hire more $chefs or $servers (maybe both). Otherwise you can print: "Up to standard"
