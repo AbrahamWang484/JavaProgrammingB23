@@ -10,7 +10,7 @@ class ScrumTeam {
     public ArrayList<Developer> devopsList = new ArrayList<>();
     public int daysOfSprint;
 
-    public void sefInfo(String PO, String BA, String SM) {
+    public ScrumTeam(String PO, String BA, String SM) {
         this.PO = PO;
         this.BA = BA;
         this.SM = SM;
@@ -23,7 +23,7 @@ class ScrumTeam {
     //    method 1: add Array to ArrayList
     public void addTesters(Tester[] testers){
       Collections.addAll(testersList,testers);
-        System.out.println(testersList);
+
     }
     // method 2:add Array to ArrayList
 //    public void addTesters(Tester[] testers) {
@@ -37,7 +37,6 @@ class ScrumTeam {
 
     public void addDevelopers(Developer[] developers){
         Collections.addAll(devopsList,developers);
-        System.out.println(devopsList);
     }
 
     public void removeTester(long employeeID){
@@ -50,11 +49,11 @@ class ScrumTeam {
 
     public String toString() {
         return "ScrumTeam{" +
-                "PO's name='" + PO + '\'' +
-                ", BA's name='" + BA + '\'' +
-                ", SM's name='" + SM + '\'' +
-                ", number of testers=" + testersList.size() +
-                ", number of devops=" + devopsList.size() +
+                "PO's name= " + PO +
+                ", BA's name= " + BA +
+                ", SM's name= " + SM +
+                ", number of testers= " + testersList.size() +
+                ", number of devops= " + devopsList.size() +
                 '}';
     }
 }

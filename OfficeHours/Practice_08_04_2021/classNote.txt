@@ -1,0 +1,76 @@
+Topics
+
+- CustomClassIntro
+
+	- Variables
+		-Local
+		-Static
+		-Instance
+
+	-Methods
+		-Instance
+		-Static
+
+	- toString()
+	- this keyword
+
+
+	Task 1 : AnimalSpecies
+
+		Create a class AnimalSpecies
+			- Create these variables in the class:
+			 	- name (String),
+				- population (int - for practice we can consider 1  unit as 1 million. Ex: population = 20 would represent 20 million ),
+				- growth rate (int - percent number)
+
+		- Create these methods :
+			- setInfo()
+				- parameters: name, population, and growth rate
+				- returns: void
+				- action: assigns the name, population, and growth rate of the object given from the parameters.
+
+		- getName()
+			 no parameters, returns the name variable
+
+		- getPopulation ()
+			 no parameters, returns the population variable
+
+		- getGrowthRate()
+			 no parameters, returns the growth rate variable
+
+		- toString()   generate the toString method as shown in class.
+
+		- Create a class Earth
+
+		- Create AnimalSpecies objects, call  get methods of the objects
+
+	Task 2 : BMW
+
+		Create a class for BMW
+			- Create these variables in the class:
+			 	- brand,model,color (String),      // BMW,x5,White
+				- price,mileage (double)		   // 20000,10000
+				- year (int)				       // 2015
+				- DOfB(LocalDate)				   // 2015,5,20
+
+
+		- Create these methods :
+			- setInfo()
+				- parameters: all atributes
+				- returns: void
+				- action: assigns necessary attributes for instance variables.
+
+		- getBrandName()
+			 no parameters, returns the brand variable
+
+		- toString()   generate the toString method as shown in class.
+
+		- Create a class MainClass for BMW
+
+		- Create BMW  objects, call the getBrandName and get methods of the objects
+			- Create an Arraylist to recall ALL BMW that were build before 2017
+			- Create an Arraylist to recall ALL BMW i8 that were build before 2016
+
+
+
+- Debug
