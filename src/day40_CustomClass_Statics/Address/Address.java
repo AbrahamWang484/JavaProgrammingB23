@@ -1,12 +1,13 @@
-package day40_.StaticClassCont.Address;
+package day40_CustomClass_Statics.Address;
 
 public class Address {
-    public String street, city, state;
+    public String buildingNumber, street, city, state;
     public int zipCode;
-    public static String country;
+    public static String country ="USA";//static only accepts static members(class cannot share the object's perporty
 
-    public void setInfo(String street, String city, String state, int zipCode) {
-        this.street = street;
+    public void setInfo(String buildingNumber,String street, String city, String state, int zipCode) { // object can share the class memebers
+        this.buildingNumber= buildingNumber;
+        this.street = street;//
         this.city = city;
         this.state = state;
         this.zipCode = zipCode;
@@ -14,9 +15,7 @@ public class Address {
 
 
     public String toString() {
-        return "Address{" +
-                street +  "\n" + city + ", " + state + " "+
-                zipCode + '}';
+        return buildingNumber+" "+ street +  "\n" + city + " " + state + ", "+ zipCode;
     }
 }
 /*

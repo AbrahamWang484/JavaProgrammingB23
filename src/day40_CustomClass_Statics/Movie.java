@@ -1,4 +1,4 @@
-package day40_.StaticClassCont.Address;
+package day40_CustomClass_Statics;
 
 import javax.crypto.interfaces.PBEKey;
 import java.time.LocalDate;
