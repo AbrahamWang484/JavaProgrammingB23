@@ -8,13 +8,13 @@ public class BMW {
     public int year;
     public LocalDate DOfB;
 
-    public void setInfo(String brand, String model, String color, double price, double mileage, int year, LocalDate DOfB) {
+    public void setInfo(String brand, String model, String color, double price, double mileage, LocalDate DOfB) {
         this.brand = brand;
         this.model = model;
         this.color = color;
         this.price = price;
         this.mileage = mileage;
-        this.year = year;
+        year = DOfB.getYear();
         this.DOfB = DOfB;
     }
 
@@ -22,6 +22,7 @@ public class BMW {
         return brand;
     }
 
+    @Override
     public String toString() {
         return "BMW{" +
                 "brand='" + brand + '\'' +

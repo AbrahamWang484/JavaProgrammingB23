@@ -1,0 +1,29 @@
+Create a class called Item
+    Instance variables:
+        - name (String), price (double), quantity (int)
+
+    Instance methods:
+        - setInfo(): Accepts and initializes all three variables
+        - toString(): returns information about Item
+
+Create a class called WalmartStore
+    -> Instance variables:
+        - location (String), totalWorth (double)
+        - ArrayList<Item> inventory = new ArrayList();
+
+    -> Static variables:
+        - company name (String),
+
+    -> Instance methods:
+        - setInfo(): Accepts and initializes location ONLY
+        - calculateWorth():Checks inventory, totals up amount of money all the items are worth. (each times price * quantity). Stores to the totalWorth variable
+
+        - restockInventory(List of Item) -> Adds the given items to the store inventory.
+            Challenge: If the item exists in the inventory already (same item name and price)
+
+        - toString(): returns information of the walmart store (location, total number of inventory, and total worth)
+
+create a class named LocalWalmartStore
+    1. Make a WalmartStore objects
+    2. create an array of Items with their informations set (at least has 10 Items).
+    3. Add those initial Items to the ArrayList of Item in the

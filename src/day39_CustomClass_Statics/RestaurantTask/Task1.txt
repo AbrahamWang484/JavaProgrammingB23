@@ -44,7 +44,9 @@
 
                 toString(): Return (String) of all the information of a Restaurant object. No need to print the whole list of Servers or Chefs. Print the number of Servers and Chefs along side the other information
 
-                terminateEmployee(String title, int employeeID): Create a method that will accept a String title which can only be "server" or "chef". If any other String is given it is invalid and the no action should be done (an error message can be given "invalid employee type"). Once you know which type of employee you are terminating use their given employeeID in the correct ArrayList type and remove them (you can give a message if you want: "$name was terminated").
+                terminateEmployee(String title, int employeeID): Create a method that will accept a String title which can only be "server" or "chef".
+                If any other String is given it is invalid and the no action should be done (an error message can be given "invalid employee type").
+                Once you know which type of employee you are terminating use their given employeeID in the correct ArrayList type and remove them (you can give a message if you want: "$name d").
 
 5. Create a class LocalRestaurant that has a main method with the following:
         	- Make a Restaurant object

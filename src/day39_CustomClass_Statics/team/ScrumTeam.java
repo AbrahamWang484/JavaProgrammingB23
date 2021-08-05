@@ -1,6 +1,7 @@
 package day39_CustomClass_Statics.team;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 
 
@@ -19,6 +20,7 @@ class ScrumTeam {
     public void addTester(Tester tester) {
         testersList.add(tester);
     }
+
 
     //    method 1: add Array to ArrayList
     public void addTesters(Tester[] testers){
