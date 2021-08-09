@@ -16,10 +16,8 @@ public class EvenNumber {
         for (int num = from; num <=to ; num++) {
             if (num%2==0){
                 System.out.print(num+" ");
+               }
         }
-
-        }
-
         System.out.println();
     }
     public static void eligibleForVote(int age,boolean isUSCitizen){

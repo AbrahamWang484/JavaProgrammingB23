@@ -1,6 +1,7 @@
 package day39_CustomClass_Statics.RestaurantTask;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 
 public class Restaurant {
@@ -22,7 +23,8 @@ public class Restaurant {
     }
 
     public void hireServer(Server[] servers){
-        Collections.addAll(serversList,servers);
+        //Collections.addAll(serversList,servers);
+        serversList.addAll(Arrays.asList(servers));
     }
 
      public void hireServer(String name, int employeeID, double hourlyRate, boolean fullTime){

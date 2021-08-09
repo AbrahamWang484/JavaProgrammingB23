@@ -20,7 +20,7 @@ public class LocalWalmartStore {
         items[9].setInfo("iPad",1,100);
 
         ArrayList<Item> itemsList= new ArrayList<>();
-        Collections.addAll(itemsList,items);
+        itemsList.addAll(Arrays.asList(items));
 
         System.out.println(itemsList);
 

@@ -54,22 +54,22 @@ o Multidimensional arrays
 
 ______________________________________________________
 
-Unit Three (day28--
+Unit Three
 
-- 3.1 Methods
+- 3.1 Methods (day 28--day 33)
 o Method types
 o Data transfer
 o Method overloading
 o Method signature
 o Datatype parameter promotion
 
-- 3.2 LocalDate and LocalTime
+- 3.2 LocalDate and LocalTime(day 34 )
 o LocalDate class
 o DateTimeFormatter
 o LocalTime
 
 
-- 3.3 Wrapper Classes / ArrayList
+- 3.3 Wrapper Classes / ArrayList(day 34 -- day 36 )
 o Wrapper Classes
 o Autoboxing / Unboxing
 o ArrayList / Collections introduction
@@ -80,7 +80,7 @@ ______________________________________________________
 
 Unit Four
 
-- 4.1 Custom Classes and Objects
+- 4.1 Custom Classes and Objects ( day 37 -- day 39)
 o Primitive vs. Object datatype
 o Classes – a blueprint
 o Instance variables

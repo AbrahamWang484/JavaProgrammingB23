@@ -5,8 +5,10 @@ import java.util.Arrays;
 
 public class MergeTwoIntArray {
     public static void main(String[] args) {
-//        int[]a = {1,2,3,4};
-//        int[]b = {4,16,1,2,3,22};
+       int[]a = {1,2,3,4};
+       int[]b = {4,16,1,2,3,22};
+
+        System.out.println(Arrays.toString( mergeTwoArrays(a,b)));
 //        System.out.println(Arrays.toString(c(a,b)));
 
     }

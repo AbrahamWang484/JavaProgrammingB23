@@ -11,12 +11,12 @@ public class ReturnMethodsPractice3 {
         String[] arr = str.split("");
         char[] arr2 = str.toCharArray();
 
-        System.out.println(Arrays.toString(arr));
-        System.out.println(Arrays.toString(arr2));
+        System.out.println(Arrays.toString(arr));//[A, A, A, B, B, B, B, B, C, C, C, C, C, D, D, D, D, D, D, D, D, D, D, D, D, D, D, D, E, E, E, E, E, E, E, E, E, E, E, E, E, F, F, F, F, F, F, F, F, F, F, F, F, F, F]
+        System.out.println(Arrays.toString(arr2));//[A, A, A, B, B, B, B, B, C, C, C, C, C, D, D, D, D, D, D, D, D, D, D, D, D, D, D, D, E, E, E, E, E, E, E, E, E, E, E, E, E, F, F, F, F, F, F, F, F, F, F, F, F, F, F]
 
         String result = removeDuplicates(str);
 
-        System.out.println(result);
+        System.out.println(result); //ABCDEF
 
 
     }

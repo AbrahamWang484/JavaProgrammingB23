@@ -28,15 +28,16 @@ Method: function. grouping a series of code fragments to create a function
 	}
 
 	declaring a method:
-		Access-midifier   specifiers   return-Type  methodName(Parameter){
-				code fragements
+		Access-modifier   specifiers   return-Type  methodName(Parameter){
+				code fragments
 		}
 
 		Access modifiers:
 		                    Access specifier:
-                            It is used to define the access type of the method. The above syntax sees the use of the “public” access specifier. However, Java provides four different specifiers, which are:
+                            It is used to define the access type of the method. The above syntax sees the use of the “public” access specifier.
+                            However, Java provides four different specifiers, which are:
 		                    public, protected, private, default
-					        for now only use public
+					        for now only use public.
                     Public: You can access it from any class
                     Private: You can access it within the class where it is defined
                     Protected: Accessible only in the same package or other subclasses in another package
@@ -65,7 +66,7 @@ Method: function. grouping a series of code fragments to create a function
 
 		    any dataType
 
-			method with parameter: we need it if method requires extra infomations to complete its functionality
+			method with parameter: we need it if method requires extra information to complete its functionality
 
 task:
 	1. create a method that can print odd numbers between 1~100 in a same line seperated by space

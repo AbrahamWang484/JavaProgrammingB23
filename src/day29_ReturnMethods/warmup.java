@@ -41,7 +41,8 @@ public class warmup {
     public static void printMaxNumber(int num1, int num2){
         System.out.println((num1> num2 ? num1:num2)+ " is max number");
     }
-    public static void printDescendingArray(int[] array){
+    public static void printDescendingArray(int[] array){  // descending
+
         Arrays.sort(array);
         int[] result=new int[array.length];
         for (int i = array.length-1,j=0; i >=0 ; i--, j++) {

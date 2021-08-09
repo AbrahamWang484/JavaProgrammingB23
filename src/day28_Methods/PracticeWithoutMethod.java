@@ -11,7 +11,7 @@ public class PracticeWithoutMethod {
         }
          */
         CustomMethodsIntro.printHello5Times();
-
+          //className.methodName
 
         //step 2
         System.out.println("Muhtar");

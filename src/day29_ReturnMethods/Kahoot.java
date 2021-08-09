@@ -38,7 +38,7 @@ public class Kahoot {
 
         num1 = num2; // num1' size: 5 , {1,2,3,4,5}
 
-        System.out.println(Arrays.toString(num1));
+        System.out.println(Arrays.toString(num1)); //[1, 2, 3, 4, 5]
 
 
 

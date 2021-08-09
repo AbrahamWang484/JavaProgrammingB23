@@ -11,7 +11,7 @@ public class SystemExit_VS_Return {
 
 
     }
-
+    //only will run the main method which has String[] argus
     public static void main(int[] args) {
         System.out.println("hello");
     }

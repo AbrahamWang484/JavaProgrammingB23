@@ -17,7 +17,7 @@ public class CustomMethodsPractice {
     public static void grade(int score) {
         if (score>100 || score <0){ //presetting
             System.out.println("Invalid number");
-            return; // exit the current method
+            return; // exit the current method uesed in non loop.
         }
 
         if (score >= 90) {

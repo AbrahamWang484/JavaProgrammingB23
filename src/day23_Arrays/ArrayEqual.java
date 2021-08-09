@@ -10,7 +10,8 @@ public class ArrayEqual {
         Object[] arr3 = new Object[] { 1, 123 };
 
         // comparing arr1 and arr2
-        boolean retval = Arrays.equals(arr1, arr2);
+        boolean retval = Arrays.equals(arr1, arr2);//just compare the content
+        //arrq.equals(arr2) this will chech the memory location
         System.out.println("arr1 and arr2 equal: " + retval);
 
         // comparing arr1 and arr3

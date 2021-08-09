@@ -21,7 +21,7 @@ public class returnMethod {
         }
         return max;
     }
-
+    //size n
     public static int maxNumberInArray2(int[] array, int n) {
         Arrays.sort(array);
         return array[n - 1];
@@ -35,7 +35,7 @@ public class returnMethod {
         }
         return min;
     }
-
+    // size n
     public static int minNumberInArray2(int[] array, int n){
         Arrays.sort(array);
         return array[0];

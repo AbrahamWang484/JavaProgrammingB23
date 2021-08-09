@@ -8,9 +8,9 @@ public class BranchingStatements {
 
         for (int i = 0; i<= 5; i++ ){
             if(i == 3){
-                //   break; // exits the loop only
-                //   return; // exits the method
-                //   continue; // skips the current iteration
+                //   break;  exits the loop only
+                //   return;  exits the method,only execute the current method code fragment, however, the rest part of method will not do that.
+                //   continue;  skips the current iteration
             }
             System.out.println(i);
         }
