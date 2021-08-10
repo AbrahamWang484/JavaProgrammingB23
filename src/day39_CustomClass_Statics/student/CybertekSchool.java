@@ -1,6 +1,4 @@
-package day39_CustomClass_Statics.Student;
-
-import day39_CustomClass_Statics.Student.Student;
+package day39_CustomClass_Statics.student;
 
 import java.time.LocalDate;
 import java.util.ArrayList;

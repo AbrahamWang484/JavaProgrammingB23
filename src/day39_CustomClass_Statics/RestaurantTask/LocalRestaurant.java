@@ -14,7 +14,7 @@ public class LocalRestaurant {
         servers[2].setInfo("Hamad",1003,15,true);
         servers[3].setInfo("Ahmed",1004,17,false);
         ArrayList<Server> serverList= new ArrayList<>();
-        Collections.addAll(serverList,servers);
+        serverList.addAll(Arrays.asList(servers));
 
         Chef[] chefs= {new Chef(),new Chef(),new Chef(),new Chef(),new Chef()};
         chefs[0].setInfo("Jason",2001,14.5,true);
@@ -23,7 +23,7 @@ public class LocalRestaurant {
         chefs[3].setInfo("Abraham",2004,17,false);
         chefs[4].setInfo("Adam",2005,16,true);
         ArrayList<Chef> chefList= new ArrayList<>();
-        Collections.addAll(chefList,chefs);
+        chefList.addAll(Arrays.asList(chefs));
 
         restaurant.setInfo("Wei","Los Angeles",4,serverList,chefList);
         System.out.println(restaurant);

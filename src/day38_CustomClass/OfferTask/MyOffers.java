@@ -32,8 +32,8 @@ public class MyOffers {
         System.out.println("------------------");
         //only keep fulltime offers
         ArrayList<Offer> fullTimeOffers = new ArrayList<>(Arrays.asList(arr));
-        fullTimeOffers.removeIf(offer -> offer.isFullTime==false    );
-        System.out.println(fullTimeOffers.size());
+        fullTimeOffers.removeIf(offer -> !offer.isFullTime);
+        System.out.println("fulltime's size = "+fullTimeOffers.size());
         System.out.println(fullTimeOffers);
         System.out.println("------------------");
         //only keep the offers that are WFH && hasPTO

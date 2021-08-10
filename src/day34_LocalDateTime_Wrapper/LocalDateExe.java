@@ -8,7 +8,7 @@ public class LocalDateExe {
       String result = LocalDate.of(1989,3,13).format(DateTimeFormatter.ofPattern("EEEE"));
         System.out.println("result = " + result);
 
-        System.out.println(nameOfTheDay(2055,3,13));
+        System.out.println(nameOfTheDay(1989,3,13));
     }
 
     public static String nameOfTheDay(int year, int month, int day){

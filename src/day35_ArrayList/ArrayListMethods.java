@@ -27,7 +27,7 @@ public class ArrayListMethods {
         System.out.println("-----------------------------------------------------");
         // remove(index):
         groceryList.remove(1);
-        System.out.println( groceryList );//[Toilet Paper, Water, Soda, Bread]
+        System.out.println(  );//[Toilet Paper, Water, Soda, Bread]
 
         //remove(Object)
         boolean r1 = groceryList.remove("Water");
@@ -137,9 +137,14 @@ public class ArrayListMethods {
         n2.add(10);
         n2.add(20);
 
-        System.out.println(n1 == n2);//false
-        System.out.println(n1.equals(n2));//true
+        System.out.println(n1 == n2);//false  check the memory location & value
+        System.out.println(n1.equals(n2));//true only check the content
 
+        ArrayList<String> s = new ArrayList<String>();
+
+        ArrayList<Integer> s1 = new ArrayList<Integer>();
+
+        System.out.println(s1.equals(s));
 
     }
 

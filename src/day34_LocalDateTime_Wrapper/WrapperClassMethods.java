@@ -4,7 +4,8 @@ public class WrapperClassMethods {
 
     public static void main(String[] args) {
 
-        String str = "123";
+        String str = "123";  //parse : convert string to primitive
+                                //valueof: convert String to wrapper class
 
         int num = Integer.valueOf(str); //unboxing  .valueOf() will convert String to Integer
         //         Integer wrapper class
@@ -17,6 +18,7 @@ public class WrapperClassMethods {
 
         Integer num4 = Integer.valueOf(str); //.valueOf() will convert String to Integer
         //                wrapper class
+
 
         System.out.println(num - 1);
 
@@ -90,4 +92,4 @@ public class WrapperClassMethods {
 }
 //Wrapped Class Methods:
 //parse methods //primitive class  String  >> primitive
-//valueOf methods : wrapped class convert to Object
+//valueOf methods : convert String to wrapped class(object)

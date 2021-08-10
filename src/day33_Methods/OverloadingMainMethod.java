@@ -9,7 +9,7 @@ public class OverloadingMainMethod {
 
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) { // only run this one
 
         System.out.println("String");
 

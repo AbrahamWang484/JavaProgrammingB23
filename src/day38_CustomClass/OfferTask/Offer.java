@@ -13,7 +13,6 @@ public class Offer {
         this.city = city;
         this.jobTitle = jobTitle;
         this.haBenifit = haBenifit;
-        this.isWFH = isWFH;
         this.hasPTO = hasPTO;
         this.salary = salary;
         this.isWFH = isWFH;

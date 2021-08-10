@@ -39,7 +39,7 @@ public class CollectionUtilities {
             }
         }
          */
-
+//print unique element list
         ArrayList<Character> uniques = new ArrayList<>( chars );
         uniques.removeIf( p ->  Collections.frequency(uniques, p ) != 1);
         System.out.println(uniques); //[B, D]

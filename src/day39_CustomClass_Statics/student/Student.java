@@ -1,4 +1,4 @@
-package day39_CustomClass_Statics.Student;
+package day39_CustomClass_Statics.student;
 
 import java.time.LocalDate;
 

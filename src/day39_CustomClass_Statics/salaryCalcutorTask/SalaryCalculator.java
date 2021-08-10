@@ -1,4 +1,4 @@
-package day39_CustomClass_Statics.SalaryCalcutorTask;
+package day39_CustomClass_Statics.salaryCalcutorTask;
 
 import java.text.DecimalFormat;
 

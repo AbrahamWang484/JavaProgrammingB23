@@ -29,7 +29,8 @@ public class BulkOperations {
 
 
         ArrayList<Integer> nums = new ArrayList<>();
-        nums.addAll(Arrays.asList(1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 5, 6, 7, 8, 9, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1));
+        boolean a = nums.addAll(Arrays.asList(1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 5, 6, 7, 8, 9, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1));
+        System.out.println("a = " + a);
         System.out.println(nums);
 
         // nums.removeAll(  Arrays.asList( 1 ) );

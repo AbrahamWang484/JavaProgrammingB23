@@ -30,7 +30,7 @@ public class Practice {
         System.out.println(list2);
 
         //  list2.removeIf( each  ->  each < 5  );
-        list2.removeIf(each -> each % 2 != 0);
+        list2.removeIf(each -> each % 2 != 0); //remove all the odd number
 
         System.out.println(list2);//[2, 2, 2, 2, 4, 4, 4, 4, 6, 6, 6, 8, 8]
 

@@ -5,10 +5,10 @@ import java.time.format.DateTimeFormatter;
 
 public class task {
     public static void main(String[] args) {
-        DateTimeFormatter format= DateTimeFormatter.ofPattern("EEEE, hh:mm a, MMM/dd/YYYY");
+        DateTimeFormatter df= DateTimeFormatter.ofPattern("EEEE, hh:mm a, MMM/dd/YYYY");
 
         LocalDateTime time = LocalDateTime.of(2020,11,24,13,0);
-        System.out.println(time.format(format));
+        System.out.println(time.format(df));
 
     }
 }

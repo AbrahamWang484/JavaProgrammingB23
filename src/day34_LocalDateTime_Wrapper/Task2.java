@@ -28,7 +28,7 @@ public class Task2 {
         System.out.println(names[index]+" is youngest, his birthday is "+ DOB[index]);
 
         System.out.println("--------------------");
-        DateTimeFormatter DF=DateTimeFormatter.ofPattern("EEEE, MMM/dd/YYYY");
+        DateTimeFormatter DF=DateTimeFormatter.ofPattern("EEEE, MMM/dd/yyyy");
         for (int i = 0; i < names.length; i++) {
             System.out.println(names[i]+" was born on "+DOB[i].format(DF));
         }

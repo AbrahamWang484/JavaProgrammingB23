@@ -46,4 +46,34 @@ PasswordValidation:
                 2. PassWord should at least contain one letter
                 3. Password should at least contain one special characters
                 4. Password should at least contain a digit
- */
+
+                Character Methods
+Following is the list of the import
+ant instance methods that all the subclasses of the Character class implement −
+
+1	isLetter()
+Determines whether the specified char value is a letter.
+
+2	isDigit()
+Determines whether the specified char value is a digit.
+
+3	isWhitespace()
+Determines whether the specified char value is white space.
+
+4	isUpperCase()
+Determines whether the specified char value is uppercase.
+
+5	isLowerCase()
+Determines whether the specified char value is lowercase.
+
+6	toUpperCase()
+Returns the uppercase form of the specified char value.
+
+7	toLowerCase()
+Returns the lowercase form of the specified char value.
+
+8	toString()
+Returns a String object representing the specified character value that is, a one-character string.
+
+
+*/

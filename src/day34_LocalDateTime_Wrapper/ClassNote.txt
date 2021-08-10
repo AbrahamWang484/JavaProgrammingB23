@@ -65,8 +65,7 @@ Data Structures:
 
 
 Warepper class:
-		1. parse methods: converting string to primitives
-
+		1. parse methods: converting string to primitives e.g. String str="123", int num = Integer.parseInt(str);
 		2. valueOf methods:converting string to wrapper class
 
 

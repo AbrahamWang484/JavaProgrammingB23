@@ -22,7 +22,7 @@ public class Circle {
 
 
     public String toString() {
-        DecimalFormat df = new DecimalFormat();
+        DecimalFormat df = new DecimalFormat("0.0");
         return "Circle{" +
                 "radius= " +radius +
                 ", diameter= " + diameter +

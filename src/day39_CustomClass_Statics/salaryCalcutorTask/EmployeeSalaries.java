@@ -1,4 +1,4 @@
-package day39_CustomClass_Statics.SalaryCalcutorTask;
+package day39_CustomClass_Statics.salaryCalcutorTask;
 
 public class EmployeeSalaries {
     public static void main(String[] args) {

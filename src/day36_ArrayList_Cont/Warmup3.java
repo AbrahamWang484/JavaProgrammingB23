@@ -10,6 +10,7 @@ public class Warmup3 {
         System.out.println(n1);
 
         int[] numbers = {1,2,3,4};
+
         ArrayList<Integer> list = new ArrayList<>();
       //  list.addAll(Arrays.asList(numbers)); compiler error, due to numbers is int,not Integer
 //only can use for each loop to add into ArrayList

@@ -1,0 +1,31 @@
+1. Create a class called Item
+            Variables:
+                name, unitPrice, quantity
+            Add a constructor to initialize all the fields
+            Methods:
+                calcCost(): returns the total price of the Item
+                toString()
+
+2. Create a class called Dog
+            Variables:
+                breed, size, gender, age, color, numberOfLegs, numberOfEyes, numberOfWings
+            Add a constructor to initialized all the fields
+            Add a static block to initialize all the statics
+            Methods:
+                toString()
+
+3. Create a class called Car
+            Variables:
+                make, model, color, year, price, numberOfWheels
+            Add a constructor to initialize all the fields
+            Add a static block to initialize all the statics
+           Methods:
+                drive(), toString()
+
+4. create a class named CybertekStudent
+            Variables:
+                name, gender, age, schoolName, fieldOfStudy, programmingLanguage
+            Add a constructor to initialize all the fields
+            Add a static block to initialize all the statics
+            methods:
+                attendClass(), replit(), toString()

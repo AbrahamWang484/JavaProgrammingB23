@@ -39,7 +39,7 @@ public class Restaurant {
     }
 
     public void hireChef(Chef [] chefs){
-        Collections.addAll(chefsList,chefs);
+        chefsList.addAll(Arrays.asList(chefs));
     }
 
     public void hireChef(String name, int employeeID, double hourlyRate, boolean fullTime){
