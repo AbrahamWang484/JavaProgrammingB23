@@ -1,20 +1,23 @@
 package day42_CustomClass_Constructors;
 
 public class Dog {
-    public String breed,size,  color;
-    public char  gender;
-    public int age,numberOfLegs, numberOfEyes, numberOfWings;
-    public static String animal = "dog";
+    public String breed, size, color;
+    public char gender;
+    public int age;
 
-    public Dog(String breed, String size, String color, char gender, int age, int numberOfLegs, int numberOfEyes, int numberOfWings) {
+    static {
+        int numberOfLegs = 4,
+                numberOfEyes = 2,
+                numberOfWings = 0;
+    }
+
+    public Dog(String breed, String size, String color, char gender, int age) {
         this.breed = breed;
         this.size = size;
         this.color = color;
         this.gender = gender;
         this.age = age;
-        this.numberOfLegs = numberOfLegs;
-        this.numberOfEyes = numberOfEyes;
-        this.numberOfWings = numberOfWings;
+
     }
 
     public String toString() {
@@ -24,9 +27,6 @@ public class Dog {
                 ", color='" + color + '\'' +
                 ", gender=" + gender +
                 ", age=" + age +
-                ", numberOfLegs=" + numberOfLegs +
-                ", numberOfEyes=" + numberOfEyes +
-                ", numberOfWings=" + numberOfWings +
                 '}';
     }
 

@@ -2,16 +2,29 @@ package day42_CustomClass_Constructors;
 
 public class Car {
     public String make,model,color;
-    public int year, price, numberOfWheels;
-    public static String product ="car";
+    public int year;
+    public double price;
 
-    public Car(String make, String model, String color, int year, int price, int numberOfWheels) {
-        this.make = make;
-        this.model = model;
-        this.color = color;
-        this.year = year;
-        this.price = price;
-        this.numberOfWheels = numberOfWheels;
+    public Car(){}
+
+    public Car(String make){
+        this.make=make;
+    }
+    public Car(String make,String model){
+        this(make);
+        this.model=model;
+    }
+    public Car(String make,String model,int year){
+        this(make, model);
+        this.year =year;
+    }
+    public Car(String make,String model,int year,double price){
+        this(make, model, year);
+        this.price= price;
+    }
+    public Car(String make,String model,int year,double price,String color){
+        this(make, model, year, price);
+        this.color= color;
     }
 
     @Override
@@ -22,21 +35,6 @@ public class Car {
                 ", color='" + color + '\'' +
                 ", year=" + year +
                 ", price=" + price +
-                ", numberOfWheels=" + numberOfWheels +
                 '}';
     }
-
-    public void drive(String name){
-        System.out.println(name + " is drive "+ make );
-    }
-
 }
-/*
-3. Create a class called Car
-            Variables:
-                make, model, color, year, price, numberOfWheels
-            Add a constructor to initialize all the fields
-            Add a static block to initialize all the statics
-           Methods:
-                drive(), toString()
- */

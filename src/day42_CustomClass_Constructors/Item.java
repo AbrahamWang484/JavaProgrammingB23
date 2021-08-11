@@ -18,8 +18,8 @@ public class Item {
     public String toString() {
         return "Item{" +
                 "name='" + name + '\'' +
-                ", quantity=" + quantity +
                 ", unitPrice=" + unitPrice +
+                ", quantity=" + quantity +
                 '}';
     }
 }
