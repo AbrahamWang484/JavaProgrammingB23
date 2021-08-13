@@ -1,5 +1,8 @@
 package day44_;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class Candy {
     private String brand;
     private int quantity;
@@ -19,6 +22,9 @@ public class Candy {
     }
 
     public void setQuantity(int quantity) {
+        if (quantity<=0){
+            return;
+        }
         this.quantity = quantity;
     }
 
@@ -27,6 +33,9 @@ public class Candy {
     }
 
     public void setPrice(double price) {
+        if (price<0){
+            return;
+        }
         this.price = price;
     }
 
@@ -36,6 +45,47 @@ public class Candy {
 
     public void setHasPeanuts(boolean hasPeanuts) {
         this.hasPeanuts = hasPeanuts;
+    }
+
+    public Candy(String brand, int quantity, double price, boolean hasPeanuts) {
+        setBrand(brand);
+        setQuantity(quantity);
+        setPrice(price);
+        setHasPeanuts(hasPeanuts);
+    }
+
+    @Override
+    public String toString() {
+        if (price==0){
+            return "Candy{" +
+                    "brand='" + brand + '\'' +
+                    ", quantity=" + quantity +
+                    ", price= free" +
+                    ", hasPeanuts=" + hasPeanuts +
+                    '}';
+        }else {
+            return "Candy{" +
+                    "brand='" + brand + '\'' +
+                    ", quantity=" + quantity +
+                    ", price=" + price +
+                    ", hasPeanuts=" + hasPeanuts +
+                    '}';
+        }
+
+
+    }
+    public static void main(String[] args) {
+        ArrayList<Candy> candyArrayList = new ArrayList<>();
+        Candy candy1 = new Candy("Kit Kat", 5, 2.5, false);
+        Candy candy2 = new Candy("Airheads", 10, 5, true);
+        Candy candy3 = new Candy("Brach's", 2, 10, false);
+        Candy candy4 = new Candy("Jelly Belly", 8, 1.5, false);
+        Candy candy5 = new Candy("M&M's", 10, 0, false);
+        candyArrayList.addAll(Arrays.asList(candy1,candy2,candy3,candy4,candy5));
+        for (Candy candy : candyArrayList) {
+            System.out.println(candy.getBrand()+" Price is "+candy.getPrice());
+            System.out.println(candy);
+        }
     }
 }
 /*
