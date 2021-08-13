@@ -1,0 +1,63 @@
+CandiesTask
+     create a custom class named Candy
+            private variables:
+                brand (String), quantity (int), price (double), hasPeanuts (boolean)
+
+            Encapsulate All the private fidlds
+                    (price of candy can not be set to negative)
+                    (quantity of candy can not be set to zero or negative)
+
+            Add a constructor that can set the instances when the object is created
+                    (avoid any duplicated code fragments)
+
+            Extra methods:
+                toString():
+                    if the price is zero, print "free" instead of 0
+
+    Create a class named CandyFactory
+            Create an ArrayList of candies
+            Add five objects of candies
+            use for each loop to print the brand and price of each candy
+
+SquareTask:
+    1. create a class named Square
+            private variables:
+                side (double)
+
+            Encapsulate All the private fields
+                (side can not be set to negative)
+
+            Add a constructor that can set the instances when the object is created
+                (avoid any duplicated code fragments)
+
+            Extra methods:
+                area(), perimeter(), toString(), equals()
+
+PersonTask:
+    private variables:
+        name (String)
+        gender (char and constant)
+        age (int)
+        dateOfBirth (LocalDate & constant)
+        countryOfBirth (String & constant)
+        language (String & constant)
+        isHuman (static boolean & constant)
+        planet (static boolean & constant)
+
+    Encapsulate all the fields (instances)
+        (age cannot be set to negative)
+
+    Add a constructor that can set the instances when the object is created
+         (Avoid any duplicated or unnecessary code fragments)
+
+     Extra methods:
+         eat(), sleep(), drink(), toString()
+
+ScrumTask:
+    re-do the scrum task by making all the fields private
+
+    Encapsulate all the field
+        (salary cannot be set to negative)
+        (employeeId cannot be set to negative or zero)
+
+    Avoid any duplicated code fragments in each class

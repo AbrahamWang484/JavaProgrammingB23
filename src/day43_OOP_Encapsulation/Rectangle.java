@@ -3,7 +3,7 @@ package day43_OOP_Encapsulation;
 public class Rectangle {
 
     private double length, width;
-
+//constructor
     public Rectangle(double length, double width) {
         setLength(length);
         setWidth(width);
