@@ -1,4 +1,4 @@
-package day41_CustomClass_Constructor.scrumTask;
+package day41_CustomClass_Constructor;
 
 import java.util.ArrayList;
 import java.util.Arrays;

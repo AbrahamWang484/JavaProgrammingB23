@@ -1,8 +1,8 @@
 package day37_CustomClass;
 
 public class Student {
-    public String name;
-    public String gender;
+     String name;
+     String gender;
     public int age;
     public String ID;
 

@@ -28,6 +28,11 @@ public class Category {
     }
 
     public ArrayList<Product> addProduct(Product product){
+        if (products.get(0).name.equalsIgnoreCase(product.name)){
+
+        }else {
+            
+        }
        products.add(product);
        return products;
     }

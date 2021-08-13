@@ -1,7 +1,7 @@
 package day42_CustomClass_Constructors.capitalOneTask;
 
-import day41_CustomClass_Constructor.scrumTask.Developer;
-import day41_CustomClass_Constructor.scrumTask.Tester;
+import day41_CustomClass_Constructor.Developer;
+import day41_CustomClass_Constructor.Tester;
 
 public class HumanResource {
 

@@ -35,7 +35,7 @@ DateTimeFormatter:
 		LocalDate:
 			year: yyyy
 			months: MM, MMM, MMMM
-			days: dd
+			days: dd,//DD will be day of Month
 			name of the day: E, EEEE
 
 
