@@ -140,7 +140,7 @@ public class ArrayListMethods {
         System.out.println(n1 == n2);//false  check the memory location & value
         System.out.println(n1.equals(n2));//true only check the content
 
-        ArrayList<String> s = new ArrayList<String>();
+        ArrayList<Character> s = new ArrayList<Character>();
 
         ArrayList<Integer> s1 = new ArrayList<Integer>();
 

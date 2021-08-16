@@ -8,7 +8,7 @@ public class task {
         DateTimeFormatter df= DateTimeFormatter.ofPattern("EEEE, hh:mm a, MMM/dd/YYYY");
 
         LocalDateTime time = LocalDateTime.of(2020,11,24,13,0);
-        System.out.println(time.format(df));
+        System.out.println(time.format(df));//星期二, 01:00 下午, 十一月/24/2020
 
     }
 }

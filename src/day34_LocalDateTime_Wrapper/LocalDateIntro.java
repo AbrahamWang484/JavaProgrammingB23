@@ -1,14 +1,19 @@
 package day34_LocalDateTime_Wrapper;
 
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 
 public class LocalDateIntro {
     public static void main(String[] args) {
         LocalDate Eid=LocalDate.of(2021,7,20);
         System.out.println("Eid = " + Eid);
 
+        DateTimeFormatter FOMATTER = DateTimeFormatter.ofPattern("MM/dd/yyyy");
         LocalDate today= LocalDate.now();
-        System.out.println(today);
+        String dateString = FOMATTER.format(today);
+        System.out.println(dateString);//08/15/2021
+        System.out.println(today);//2021-08-15
+        System.out.println(FOMATTER.format(today));//08/15/2021
 
         System.out.println("---------------------");
 
@@ -53,7 +58,7 @@ public class LocalDateIntro {
 
         LocalDate currentDate= LocalDate.now();
 
-        System.out.println(currentDate);
+        System.out.println("currentDate: "+currentDate);//currentDate: 2021-08-15
 
         LocalDate unitAssessment3= currentDate.plusDays(14);
         System.out.println(unitAssessment3);

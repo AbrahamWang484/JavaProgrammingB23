@@ -34,13 +34,13 @@ DateTimeFormatter:
 
 		LocalDate:
 			year: yyyy
-			months: MM, MMM, MMMM
+			months: MM, MMM, MMMM (mm for minuetes)
 			days: dd,//DD will be day of Month
 			name of the day: E, EEEE
 
 
 		LocalTime:
-			hour: hh
+			hour: hh (1-12) HH (0-23)
 			minutes: mm
 			seconds: ss
 			am/pm: a
@@ -67,7 +67,7 @@ Data Structures:
 Warepper class:
 		1. parse methods: converting string to primitives e.g. String str="123", int num = Integer.parseInt(str);
 		2. valueOf methods:converting string to wrapper class
-
+        3. intValue(): Integer to int
 
 
 	"123" + 1 ==> 1231

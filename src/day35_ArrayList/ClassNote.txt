@@ -57,3 +57,8 @@ ArrayList methods:
 
 Arrays Utility:
 	Arrays.asList(array of values) ==> returns the array as Collection Type
+
+
+
+https://howtodoinjava.com/java/collections/arraylist/compare-two-arraylists/
+How to compare two ArrayLists in Java

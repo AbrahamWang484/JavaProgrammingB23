@@ -63,3 +63,30 @@ Collection Utility Class: Collections, designed for collection data structures O
 
 
 Thursday: custom class
+
+
+
+Following info please see the website:
+https://www.softwaretestinghelp.com/java-arraylist-tutorial/
+ArrayList Class In Java
+Create And Declare ArrayList
+Constructor Methods
+Method #1: ArrayList()
+Method #2: ArrayList (int capacity)
+Method #3: ArrayList (Collection<? Extends E> c)
+Initialize ArrayList In Java
+#1) Using Arrays.asList
+#2) Using Anonymous inner class Method
+#3) Using add Method
+#4) Using Collection.nCopies Method
+Iterating Through ArrayList
+#1) Using for loop
+#2) By for-each loop (enhanced for loop)
+#3) Using Iterator Interface
+#4) By ListIterator Interface
+#5) By forEachRemaining () Method
+ArrayList Java Example
+Two-dimensional ArrayList In Java
+Frequently Asked Questions
+Conclusion
+Recommended Reading
