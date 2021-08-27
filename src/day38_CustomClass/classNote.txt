@@ -8,11 +8,11 @@ package name: day38_CustomClass
 
 
 this keyword: for object isntances ONLY
-		this. : can call the instances of the objects (instance variables & methods)
+		this. : can call the instances of the objects (instance variables & methods) same class
 
 				we only use it call instances variables when local variables have the same name with instance variables
 
-
+object class
 toString(): instance methods. used when we print the objects
 			implicitly called by compiler
 

@@ -18,11 +18,11 @@ public class Item {
      *
      * assigns to values to instance variables
      */
-    public Item(String name,int quantity,int catalogNumber, double price)
-    {
-
-
-
+    public Item(String name,int quantity, int catalogNumber,  double price) {
+        setName(name);
+        setQuantity(quantity);
+        setCatalogNumber(catalogNumber);
+        setPrice(price);
     }
 
     /**
@@ -30,7 +30,7 @@ public class Item {
      * @param name
      */
     public void setName(String name) {
-
+        this.name = name;
     }
 
     /**
@@ -38,7 +38,7 @@ public class Item {
      * @param price
      */
     public void setPrice(double price) {
-
+        this.price= price;
     }
 
     /**
@@ -46,8 +46,7 @@ public class Item {
      * @return
      */
     public double getPrice() {
-
-        return 0.0;
+        return price;
     }
 
     /**
@@ -55,29 +54,33 @@ public class Item {
      * @return
      */
     public String getName(){
-
-
-        return null;
+        return name;
     }
 
 
     public int getQuantity(){
         //TODO
-        return -1;
+        return quantity;
 
     }
     public void setQuantity(int quantity){
         //TODO
-
+        if(quantity<0){
+            return;
+        }
+        this.quantity= quantity;
     }
 
     public int getCatalogNumber(){
         //TODO
-        return -1;
+        return catalogNumber;
     }
 
     public void setCatalogNumber(int catalogNumber) {
-
+        if(catalogNumber<0){
+            return;
+        }
+        this.catalogNumber= catalogNumber;
 
     }
 
