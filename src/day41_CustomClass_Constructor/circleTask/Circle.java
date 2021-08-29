@@ -5,13 +5,14 @@ public class Circle {
     public double radius;
     public double diameter;
 
-    public static double PI;
 
+    public static double PI;
     static{
         PI = 3.14;
+        System.out.println("static block");
     }
 
-    public  Circle(double radius){
+    public Circle(double radius){
         this.radius = radius;
         diameter = 2 * radius;
     }

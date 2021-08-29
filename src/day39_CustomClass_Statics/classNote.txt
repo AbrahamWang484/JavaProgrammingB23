@@ -33,16 +33,6 @@ warmup tasks:
                     setInfo(): initializes all the instance of the Circle
                     toString(): displays the radius, diameter, perimeter and area of the circle object
 
-
-
-instance: belong to the object
-		each object has its own copy of the instances (can have multiple copies)
-
-static: belongs to the class.
-		There is only one copy os statics thta's shared by all objects of the class
-
-
-
 CybertekStudent ==> 100 CybertekStudents
 	instance: name, age, gender
 	static: schoolName ="Cybertek School",
@@ -51,3 +41,20 @@ CybertekStudent ==> 100 CybertekStudents
 iPhone
 	instance: model, color, price, memorySize
 	static: brand, operatingSystem, madeIn, designated,  touchScreen, hasCamera, hasFaceTime
+
+
+
+
+instance: belong to the object
+		each object has its own copy of the instances (can have multiple copies)
+
+static: belongs to the class.
+		There is only one copy of statics that shared by all objects of the class
+method signature:
+        The method name with parameter list (number of parameters, type of parameters, and order of parameters ) is called method signature in java.
+Method body:
+        The method body is a block-statement that contains statements as well as the declaration of the local variables and local classes.
+        The method body may also contain return statements.
+
+
+

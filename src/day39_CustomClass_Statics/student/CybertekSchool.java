@@ -57,10 +57,10 @@ public class CybertekSchool {
         System.out.println("----------------------------------------------------------------");
 
         Student[][] groups = { group1, group2, group3};
-//divide the groups to differen grade
+//divide the groups to different grade
         ArrayList<Student> firstMarketGroup = new ArrayList<>(); // grade MUST be A
         ArrayList<Student> secondMarketGroup = new ArrayList<>();// grade MUST be B
-        ArrayList<Student> thirdayMarketGroup = new ArrayList<>();
+        ArrayList<Student> thirdMarketGroup = new ArrayList<>();
 
         for (Student[] eachGroup : groups) {
             for (Student eachStudent : eachGroup) {
@@ -69,13 +69,13 @@ public class CybertekSchool {
                 }else if (eachStudent.grade=='B'){
                     secondMarketGroup.add(eachStudent);
                 }else {
-                    thirdayMarketGroup.add(eachStudent);
+                    thirdMarketGroup.add(eachStudent);
                 }
             }
         }
         System.out.println("Market group1: "+ firstMarketGroup.size());
         System.out.println("Market group2: "+ secondMarketGroup.size());
-        System.out.println("Market group3: "+thirdayMarketGroup.size());
+        System.out.println("Market group3: "+thirdMarketGroup.size());
 
         // who is the youngest earlyBird
         LocalDate min = firstMarketGroup.get(0).DoB;

@@ -88,13 +88,13 @@ o Methods
 o Initialization block
 
 
-- 4.2 Static members
+- 4.2 Static members  ( day 39 -- day 40)
 o Static fields and methods
 o Static block
 o Static imports
 
 
-- 4.3 Constructor
+- 4.3 Constructor ( day 41 -- day 42)
 o Creating objects
 o Constructor chaining
 o Overloading

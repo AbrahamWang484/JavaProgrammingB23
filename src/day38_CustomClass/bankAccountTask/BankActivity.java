@@ -22,7 +22,7 @@ public class BankActivity {
             each.checkBalance();
            // System.out.println("After Deposit, Balance will be: "+each.deposit(10));
         }
-         account1.withdraw(10);
+        account1.withdraw(10);
         account1.deposit(1000);
         account1.checkBalance();
         //account2.withdraw(10);

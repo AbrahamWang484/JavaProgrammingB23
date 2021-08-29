@@ -24,5 +24,6 @@ public class MyScrumTeam {
         scrumTeam.addDevelopers(developers);
 
         System.out.println(scrumTeam);
+        System.out.println(scrumTeam.devopsList);
     }
 }

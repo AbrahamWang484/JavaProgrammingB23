@@ -42,7 +42,7 @@ public class AppleInc {
         System.out.println("--------------------------------------------");
 
         // remove all the emploees thata re making more than 130K
-        ArrayList<Employee> list1 = new ArrayList<>( employees);
+        ArrayList<Employee> list1 = new ArrayList<>(employees);
         list1.removeIf( employee ->  employee.salary >= 130000  );
 
         for (Employee each : list1) {

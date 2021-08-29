@@ -1,6 +1,6 @@
 package day49_Exceptions;
 
-import day42_CustomClass_Constructors.Employee;
+import day45_Inheritance.employeeTask.Employee;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

@@ -32,15 +32,11 @@ public class CybertekStudent {
         System.out.println(name+" is asking for break");
     }
 
-
     public String toString() {
         return "CybertekStudent{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 ", gender=" + gender +
-                ", schoolName='" + schoolName + '\'' +
-                ", filedOfStudy='" + filedOfStudy + '\'' +
-                ", programmingLanguage='" + programmingLanguage + '\'' +
                 '}';
     }
 }

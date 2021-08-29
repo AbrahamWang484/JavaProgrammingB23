@@ -49,6 +49,8 @@ object: came from class, instance of a class
 
 instance: each object has its own copy
 
+Object can share what the class has but class cannot share object variables
+
 instance variables: object variables
 				each object has its own copy of instance variables
 

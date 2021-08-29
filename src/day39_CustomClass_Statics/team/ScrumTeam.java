@@ -17,14 +17,15 @@ class ScrumTeam {
         this.SM = SM;
     }
 
-    public void addTester(Tester tester) {
+    public void addTesters(Tester tester) {
         testersList.add(tester);
     }
 
 
     //    method 1: add Array to ArrayList
     public void addTesters(Tester[] testers){
-      Collections.addAll(testersList,testers);
+        testersList.addAll(Arrays.asList(testers));
+      //Collections.addAll(testersList,testers);
 
     }
     // method 2:add Array to ArrayList
@@ -33,12 +34,12 @@ class ScrumTeam {
 //            testersList.add(tester);
 //        }
 
-    public void addDeveloper(Developer developer){
+    public void addDevelopers(Developer developer){
         devopsList.add(developer);
     }
 
     public void addDevelopers(Developer[] developers){
-        Collections.addAll(devopsList,developers);
+        devopsList.addAll(Arrays.asList(developers));
     }
 
     public void removeTester(long employeeID){

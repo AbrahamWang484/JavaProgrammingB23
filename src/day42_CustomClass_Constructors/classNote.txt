@@ -40,22 +40,6 @@ warmup tasks:
 				replit()
 				toString()
 
-
-Constructor: special method
-
-this: refers to the object instances
-	this. : to call instance variable & instane method
-	this(): used for calling the constructor
-
-
-constructor call:
-			1. constructor cannot be called by its name (this() need to be used)
-			2. only a constructor can call another constructor
-			3. Constructor call MUST be at the first step
-			4. one constructor cannot call more than one constructor
-			5. Constructor cannot call itself or contain itself
-
-
 Task:
 	1. Class Name: Employee
 			instance variables:
@@ -111,6 +95,7 @@ class & Objects:
 		static variables
 		static methods
 		static block
+		static class
 		static import
 
 
