@@ -30,11 +30,27 @@ Constructors: Special method. every class MUST have constructor
 
 			syntax:
 				Access-Modifier className(Parameter){
-
-
 				}
 
+6 Rules for Constructor:
+1.call constructor through this()
+2. only constructor can call another constructor
+3. constructor call must be in 1st step
+4. only 1 constructor call in one constructor
+5. constructor cannot call itself
+6. Child class must call parent class constructor
+7. parent class default constructor is called by default in child class
+8. if the parent class constructor is not default, it must be called mannually
 
+private constructor:
+            is useful when we want to prevent users from creating an object of class.
+            Only within the class, we can make a new object of class with private constructor.
+What happens when we make Constructor private in Java?
+    1.A class cannot be extended when a constructor is declared as private
+    2.We cannot create an instance of class when we declare constructor private. If we try, compile-time error will get.
+Use of Private Constructor in Java:
+    1.Private constructor is used when we want to prevent other classes from creating an object of a class.
+    2.It can be used in single tone classes where the object of the class cannot be created outside the class.
 
 
 object:

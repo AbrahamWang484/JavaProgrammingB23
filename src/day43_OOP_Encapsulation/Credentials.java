@@ -11,13 +11,13 @@ public class Credentials {
 
     public String getUsername() {
         return username;
-    }
+    }  //read
 
     public String getPassword() {
         return password;
     }
 
-    public void setUsername(String username) {
+    public void setUsername(String username) {  //write
         boolean startsWithLetter = Character.isLetter(username.charAt(0));
         if(!startsWithLetter){ // if first character of the user name is not a letter
             return; // exit the method

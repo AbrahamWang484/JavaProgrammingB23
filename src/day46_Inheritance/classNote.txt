@@ -53,7 +53,7 @@ this keyword: refers to the instances. current class
 
 
 super keyword: refers to the instances
-	super. : calls instance variables & methods of parent class class
+	super. : calls instance variables & methods of parent class
 	super(): calls constructor of parent class
 
 	constructor calls in inheritance:
