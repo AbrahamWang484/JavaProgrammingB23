@@ -2,7 +2,7 @@ package day11_Switch;
 
 public class NameOfMonth {
     public static void main(String[] args) {
-        int num =1;
+        int num =13;
 
         switch(num){
             case 1:

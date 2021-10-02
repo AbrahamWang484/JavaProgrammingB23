@@ -31,6 +31,8 @@ public class ShippingInfo {
         String shippinginfo =fullName+ "\n"+buildingNumber+" "+address+"\n"+cityName+", "+state+" "+ zipCode;
         System.out.println(shippinginfo);
 
+        scan.close();
+
     }
 }
 /*

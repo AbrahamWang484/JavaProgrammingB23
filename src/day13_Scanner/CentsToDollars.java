@@ -7,6 +7,7 @@ public class CentsToDollars {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the cents:");
         int cents = input.nextInt();//225,300
+        input.close();
         int dollars = cents/100;//2,3
         int remainder = cents%100;//25,0
 

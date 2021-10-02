@@ -8,6 +8,7 @@ public class OddOrEven {
 
         System.out.println("Enter a number");
         int num= scan.nextInt();
+        scan.close();
 
         System.out.println((num%2 !=0)?"Odd":"Even");
 

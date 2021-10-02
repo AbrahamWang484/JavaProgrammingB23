@@ -9,10 +9,11 @@ public class nextLineMethod2 {
         System.out.println("Enter your age:");
         int age = input.nextInt();
 
-        input.nextLine();//enter key
+        input.nextLine();//accept enter key>>>>must be used before scan.nextLine() to clear the memory
 
         System.out.println("YOur job title:");
         String jobTitle = input.nextLine();
+        input.close();
 
         System.out.println("age = " + age);
         System.out.println("jobTitle = " + jobTitle);

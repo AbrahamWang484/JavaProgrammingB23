@@ -7,6 +7,7 @@ public class SwitchLiveWith {
         Scanner scan =new Scanner(System.in);
         System.out.println("How many people do you live with?");
         int num = scan.nextInt(); //if one time use, so no need assign the variable again.
+        scan.close();
         if(num>=1){
             switch (num){
                 case 1:

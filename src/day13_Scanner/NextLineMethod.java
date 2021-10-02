@@ -8,6 +8,7 @@ public class NextLineMethod {
         Scanner input= new Scanner(System.in);
         System.out.println("Enter your job title:");
         String jobTitle = input.nextLine();
+        input.close();
 
         System.out.println("jobTitle = " + jobTitle);
 

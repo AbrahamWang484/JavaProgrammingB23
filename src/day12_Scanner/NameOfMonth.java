@@ -6,6 +6,7 @@ public class NameOfMonth {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int number = input.nextInt();
+        input.close();
 
         switch(number){
                 case 1:

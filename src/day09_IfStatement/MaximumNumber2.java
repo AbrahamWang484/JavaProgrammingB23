@@ -1,3 +1,5 @@
+package day09_IfStatement;
+
 public class MaximumNumber2 {
     public static void main(String[] args) {
         int a = 20, b= 20;

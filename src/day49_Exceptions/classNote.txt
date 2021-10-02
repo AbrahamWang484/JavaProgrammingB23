@@ -45,7 +45,7 @@ Exception Handlings:
 
 
 		2. throws keyword: used for handling checked exceptions ONLY
-
+                        e.g. Thread.sleep(time)
 
 						caller of the method will be responsible for handling the exception
 

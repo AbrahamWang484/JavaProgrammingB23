@@ -7,6 +7,7 @@ public class ScoreGrade {
         Scanner input = new Scanner(System.in);
         System.out.println("Please enter number");
         int score = input.nextInt();
+        input.close();
 
         if (score<=100 && score>=0){
             if (score>=90){

@@ -1,7 +1,5 @@
 package day13_Scanner;
 
-import com.sun.xml.internal.ws.model.wsdl.WSDLPortProperties;
-
 import java.util.Scanner;
 
 public class SpeedCheck {

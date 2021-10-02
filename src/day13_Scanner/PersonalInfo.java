@@ -21,6 +21,7 @@ public class PersonalInfo {
 
         System.out.println("Enter your job title:");
         String jobTitle= scan.nextLine();
+        scan.close();
 
         System.out.println("salary = " + salary);
         System.out.println("gender = " + gender);

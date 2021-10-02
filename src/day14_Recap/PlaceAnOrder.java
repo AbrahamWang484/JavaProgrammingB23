@@ -15,6 +15,7 @@ public class PlaceAnOrder {
         double totalPrice = price * quantity;
         System.out.println("Enter your first name");
         String firstName =input.next();
+        input.close();
 
         System.out.println(firstName+", your order for "+quantity+" "+ productName+" has been places. Your Total is "+totalPrice+".");
 

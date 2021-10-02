@@ -7,7 +7,7 @@ Review Topcis: Singel dimensional Array
 Package name: day27_Recap
 
 
-Array: one of the three data structures
+Array: one of the three data structures(others is Collection, map)
 		size is fixed
 
 		ordered data structure (index)

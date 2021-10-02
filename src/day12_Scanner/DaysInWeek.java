@@ -7,6 +7,7 @@ public class DaysInWeek {
         Scanner input= new Scanner(System.in);
         System.out.println("Enter the number");
         int num = input.nextInt();
+        input.close();
 
         switch (num){
             case 1:

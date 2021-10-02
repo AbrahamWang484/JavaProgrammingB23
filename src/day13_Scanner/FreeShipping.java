@@ -10,6 +10,7 @@ public class FreeShipping {
         double price = input.nextDouble();
         System.out.println("Are you a prime member?");
         boolean isPrime = input.nextBoolean();
+        input.close();
 
         double totalPrice = (isPrime)? price : price+3.99;
         System.out.println("totalPrice = $" + totalPrice);

@@ -12,6 +12,7 @@ public class ScannerIntro {
         int num1=input.nextInt();
         System.out.println("Please enter your second number");
         int num2=input.nextInt();
+        input.close();
 
         int addition = num1+num2;
         int subtraction = num1-num2;

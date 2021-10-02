@@ -39,6 +39,7 @@ String Methods cont:
 
 String methods are:   1. for manipulation inside the sentence
                       2. for boolean usage
+following are return boolean:
 >>contains():checks if the given str is contained in the string. return boolean (has for contain; is for equal)
 >>startsWith(str): checks if the string is started with given str. returns boolean
 >>endsWith(str): checks if the string is ended with given str. returns boolean

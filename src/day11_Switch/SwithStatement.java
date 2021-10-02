@@ -24,7 +24,9 @@ public class SwithStatement {
             case 5:
                 System.out.println("Friday");
                 break;
-
+            default:
+                System.out.println("Invalid");
+                break;
             case 6:
                 System.out.println("Saturday");
                 break;
@@ -33,9 +35,7 @@ public class SwithStatement {
                 System.out.println("Sunday");
                 break;
 
-            default:
-                System.out.println("Invalid");
-                break;
+
         }
     }
 }

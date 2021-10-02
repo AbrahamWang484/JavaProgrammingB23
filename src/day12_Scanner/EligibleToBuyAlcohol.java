@@ -9,6 +9,7 @@ public class EligibleToBuyAlcohol {
 
         System.out.println("Please enter your age:");
         int age = input.nextInt();
+        input.close();
 
         if (age>=21){
             System.out.println("You can buy the alcohol.");

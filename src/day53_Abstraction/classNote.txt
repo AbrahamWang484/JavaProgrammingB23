@@ -63,7 +63,7 @@ warmup task:
 
 			implement all the methods that are needed
 
-
+========================Class Note=============================
 
 Interface (not a class):
 
@@ -136,7 +136,7 @@ Polymorphism: "IS A relation" is a MUST
 
 		polymorphism
 		reference type vs object type
-		instanceOf keyword
+		instanceOf keyword  :check the variable belongs to the class
 		up & down casting
 
 
