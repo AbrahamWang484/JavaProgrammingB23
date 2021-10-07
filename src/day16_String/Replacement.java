@@ -9,7 +9,7 @@ public class Replacement {
 
         String sentence = "C# is cool, C# is fun";
         sentence =sentence.replace("C#","Java");
-        System.out.println(sentence);
+        System.out.println(sentence); //Java is cool, Java is fun  //.replace() will replace all
 
         String sentence1 = "C# is cool, C# is fun";
         sentence1 = sentence1.replaceFirst("C#","Java");

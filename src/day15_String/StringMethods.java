@@ -37,7 +37,7 @@ public class StringMethods {
         String fullName = firstName +" "+lastName;
         String fullName2 =firstName.concat(" ").concat(lastName);// use .concat()
         //each concat() only use for once, if concat multiple times.
-        System.out.println("fullName2 = " + fullName2);
+        System.out.println("fullName2 = " + fullName2); //John King
 
         System.out.println("----------------");
         String  s ="cybertek";

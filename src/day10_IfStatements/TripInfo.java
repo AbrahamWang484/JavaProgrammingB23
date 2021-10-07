@@ -2,7 +2,7 @@ package day10_IfStatements;
 
 public class TripInfo {
     public static void main(String[] args) {
-        int grade = 7;
+        int grade = 1;
         String info = "";
 
         if (grade>=1 && grade <= 6){

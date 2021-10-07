@@ -36,6 +36,7 @@ public class PyramidShape1 {
          *
          */
         // outer loop to handle number of rows n in this case
+        System.out.println("\n\n");
         int n = 5;
         for (int i = 0; i < n; i++) {
             // inner loop to handle number spaces values changing acc. to requirement
