@@ -4,30 +4,6 @@ Topics: Access modifiers
 
 Package Name: day43_OOP_Encapsulation
 
-Items Task:
-    create a class called Item
-            instance variables:
-                name, unitPrice, quantity
-
-            add a constructor that can initialize all the fields
-
-            instance methods:
-                calcCost(): returns the total cost
-                toString(): returns the name, unit price, quantity and total cost info as calculated by calcCost()
-
-    create a class called MyCart
-            create 5 static variables of Items
-            Add a static block to to set all the static variables
-
-    Create a class named CheckOut
-            1. Create an ArrayList of Items
-            2. add all the 5 items from MyCart to the ArrayList items
-            3. calculate the total price of all the items (including the tax)
-                        Assume that the sales tax is 8%
-
-
-
-
 Access modifiers: determins if a variable or a method is reachable
 
 			public: ALWAYS reachable
@@ -61,6 +37,32 @@ Encapsulation: hiding the fields (instance variables) by using private access mo
 use the data:
 		1. read (getetr)
 		2. write (setter)
+
+
+Items Task:
+    create a class called Item
+            instance variables:
+                name, unitPrice, quantity
+
+            add a constructor that can initialize all the fields
+
+            instance methods:
+                calcCost(): returns the total cost
+                toString(): returns the name, unit price, quantity and total cost info as calculated by calcCost()
+
+    create a class called MyCart
+            create 5 static variables of Items
+            Add a static block to to set all the static variables
+
+    Create a class named CheckOut
+            1. Create an ArrayList of Items
+            2. add all the 5 items from MyCart to the ArrayList items
+            3. calculate the total price of all the items (including the tax)
+                        Assume that the sales tax is 8%
+
+
+
+
 
 
 Instance & statics short quiz due by 2:15 pm

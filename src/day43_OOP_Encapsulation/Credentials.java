@@ -56,7 +56,7 @@ public class Credentials {
             }else if(!Character.isLetterOrDigit(each)){ // if the character is special character
                 r3 = true;
             }else{
-                r4 = true;
+                r4 = true;//if the character is digit
             }
         }
 

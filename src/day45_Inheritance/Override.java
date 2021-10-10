@@ -35,7 +35,7 @@ class Main {
         // to a Child object Child's show()
         // is called. This is called RUN TIME
         // POLYMORPHISM.
-        Child obj2 = new Child();
+        Parent obj2 = new Child();
         obj2.show();
     }
 }

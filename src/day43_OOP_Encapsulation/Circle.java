@@ -17,7 +17,7 @@ public class Circle {
     public void setRadius(double radius){
         if(radius < 0){
             System.out.println("Radius can not be negative");
-            return;
+            return;//exit the method
         }
         this.radius  =radius; // r= 3
         diameter = radius * 2;

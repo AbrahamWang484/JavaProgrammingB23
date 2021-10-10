@@ -70,7 +70,7 @@ Custom exceptions:
 	2. how to create custom checked exception?
 			by inheriting Exception class
 
- if you have unchecked exception, you need to use "try & catch" for solution.
+         * if you have unchecked exception, you need to use "try & catch" for solution.
          * if you have checked exception and if you are going to use this class somewhere and if you need a permanent solution
            then you need to use "try & catch".
          * if you have checked exception, and you are not going to use this class anywhere else, you can use "throws" keyword.

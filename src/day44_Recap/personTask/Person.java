@@ -64,7 +64,7 @@ public class Person {
 
     public void setGender(char gender){
         if( !(gender == 'M' || gender == 'F') ){ // if the gender is not male or female
-            return; // exit
+            return; // exit method
         }
         this.gender = gender;
     }

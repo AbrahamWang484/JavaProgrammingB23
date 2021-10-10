@@ -69,16 +69,9 @@ Inheritance:
 
 Object class: presented in "java.lang". parent of all classes, implicitly inherited to all the classes
 
-
-come back at 11:20 am.
-Constrcutors short quiz is due by 11:40 am
-
-
 Method overloading: multiple method having the same method name in same class
 					same method name, different parameters
 					return type can be same or different
-
-
 
 Method Overriding: giving different implementations to the method
 

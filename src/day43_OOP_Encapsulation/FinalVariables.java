@@ -4,7 +4,7 @@ import java.time.LocalDate;
 
 public class FinalVariables {
 
-    private  final String gender ;
+    private  final String gender ; //final can not have setter
     private final LocalDate DOB;
     private double salary;
 

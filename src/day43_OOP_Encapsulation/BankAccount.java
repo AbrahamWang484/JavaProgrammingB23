@@ -37,7 +37,7 @@ public class BankAccount {
     public void deposit(double amount){
         if (amount<=0){
             System.out.println("Depositing amount can not be negative of zero");
-            return;
+            return; //exit the current method
         }
         System.out.println("Depositing $ "+amount+" to the account "+accountNumber);
         balance+=amount;
@@ -66,3 +66,9 @@ public class BankAccount {
                 '}';
     }
 }
+
+/*
+continue:   skip
+break:      is used to exit (escape) the for-loop, while-loop, switch-statement that you are currently executing.
+return:      will exit the entire method you are currently executing (and possibly return a value to the caller, optional).
+ */

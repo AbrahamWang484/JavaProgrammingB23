@@ -4,7 +4,7 @@ public class FinalKeyword {
 
     public final void sleep(){
         System.out.println("Sleep");
-    }
+    }//final method can not be override
 
     public void area(){
 

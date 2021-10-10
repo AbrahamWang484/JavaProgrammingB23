@@ -17,7 +17,7 @@ public class EncapsulationIntro {
     public void setUsername(String username){
         if(username.length() <5){
             System.out.println("Username needs to be at least 5 characters long");
-            return;
+            return; //exit method
         }
         this.username = username;
     }

@@ -28,6 +28,7 @@ public class LoginFunction {
                     System.out.println("Logged in.");
                     break; //exits the loop
                     //continue; skip the current loop
+                    //System.exit(0); exit whole system
                 }
                 if (i ==2){
                     System.out.println("Your account is locked.");

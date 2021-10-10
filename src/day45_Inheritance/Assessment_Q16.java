@@ -4,10 +4,10 @@ public class Assessment_Q16 {
     public static void main(String[] args) {
         double number = add(3.4);
 
-        number+= add ("dual");
-        number+= add(Integer.parseInt("100"));
-        number+= add(11341L);
-        number+= add(Float.parseFloat("50.8"));
+        number+= add ("dual");//2.5+10
+        number+= add(Integer.parseInt("100"));//12.5+5=17.5
+        number+= add(11341L);//17.5+2.5
+        number+= add(Float.parseFloat("50.8"));//17.5+2.5 +2.5 =22.5
         System.out.println(number);
         //11341L;
         System.out.println(11341L);

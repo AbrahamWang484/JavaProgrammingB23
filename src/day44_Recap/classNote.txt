@@ -6,28 +6,6 @@ Java Recap: class & Object
 
 packageName: day44_Recap
 
-PersonTask:
-    private variables:
-        name (String)
-        gender (char)
-        age (int)
-        dateOfBirth (LocalDate & constant)
-        countryOfBirth (String & constant)
-        language (String & constant)
-
-    public variables:
-        isHuman (static boolean & constant)
-        planet (static boolean & constant)
-
-    Encapsulate all the fields (instances)
-        (age cannot be set to negative)
-
-    Add a constructor that can set the instances when the object is created
-         (Avoid any duplicated or unnecessary code fragments)
-
-     Extra methods:
-         eat(), sleep(), drink(), toString()
-
 
 Class & Object:
 	instances: multiple copies
@@ -64,5 +42,28 @@ using the data:
 final keyword: constant
 
 		final variables: can not be reassigned
-		final methods
-		final class
+		final methods: can not be override
+		final class: can not inherent
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>PersonTask:>>>>>>>>>>>>>>>>>>>>>>>>>>
+            private variables:
+                name (String)
+                gender (char)
+                age (int)
+                dateOfBirth (LocalDate & constant)
+                countryOfBirth (String & constant)
+                language (String & constant)
+
+            public variables:
+                isHuman (static boolean & constant)
+                planet (static boolean & constant)
+
+            Encapsulate all the fields (instances)
+                (age cannot be set to negative)
+
+            Add a constructor that can set the instances when the object is created
+                 (Avoid any duplicated or unnecessary code fragments)
+
+             Extra methods:
+                 eat(), sleep(), drink(), toString()

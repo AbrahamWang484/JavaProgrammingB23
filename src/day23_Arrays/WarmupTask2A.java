@@ -9,7 +9,7 @@ public class WarmupTask2A {
         for (int i = 0; i < str.length(); i++) {
             char each = str.charAt(i);
             if (removeDuplicate.contains("" + each)) { //how to convert char to String
-                continue;
+                continue;//skip
             }
             removeDuplicate += each; //removeDuplicate =abcd
 
